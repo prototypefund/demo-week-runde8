@@ -23,7 +23,11 @@ Wir entwickeln FabAccess, ein föderierbares Verwaltungssystem für FabLabs, Mak
 
 # Das Team
 
-> TODO: Teammitglieder verstellen
+* Tasso: Product-Owner 
+* Gregor: Mädchen für alles, Backend
+* Jannis: Design, Frontend
+* Joseph: Frontend, Design
+* Kai: Infrastruktur, Libraries
 
 # Das Problem
 
