@@ -65,6 +65,6 @@ Die Daten werden von den jeweiligen Organisationen erhoben, die jeweils auch eig
 2. Austausch: Was uns sehr geholfen hat, war ein regelmäßiger Austausch. Nicht nur untereinander, sondern auch mit anderen Teams. So hatten wir immer einen Abgleich, was passiert gerade im anderen Team, wie ist der Stand, welche Probleme gibt, welche Fortschritte.
 3. Deadlines: Wir haben uns immer wieder Deadlines gesetzt, bis wann wir was fertig haben wollte. Dadurch haben wir immer einen guten Überblick über den Zeitplan gehabt und konnten rechtzeitig veröffentlichen.
 
-Wir danken dem BMBF für die finanzielle Förderung, dem Team des Prototype Fund für die Betreuung, und Lisa Steingräber von Simple Secure für das Design-Coaching.
+Wir danken dem Team des Prototype Fund für die Betreuung und Lisa Steingräber von Simple Secure für das Design-Coaching.
 
 [zu Tatort Rechts](https://tatortrechts.de)
