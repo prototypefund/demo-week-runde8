@@ -43,7 +43,7 @@ Wir haben uns lange auf die Daten und die Analyse der Daten konzentriert. Doch b
 
 ### Gezielte Suchen
 
-Seit dem Jahr 2000 sind auf den 13 Projekt-Webseiten zusammen über 16.000 Fälle registriert worden, die einen rechten, rassistischen oder antisemitischen Bezug haben. Nun können User*innen zum einen nach Fällen auf der [Karte](https://tatortrechts.de/karte) suchen und sich in ihr Bundesland bis zu ihrer Stadt reinzoomen. Zum anderen können Benutzer*innen über eine Suchleiste anhand von Schlagworten filtern, nach bestimmten Namen oder Taten suchen. Mit erweiterten Suchfiltern kann die Suche weiter eingegrenzt werden.
+Seit dem Jahr 2000 sind auf den 13 Projekt-Webseiten zusammen über 16.000 Fälle registriert worden, die einen rechten, rassistischen oder antisemitischen Bezug haben. Nun können User\*innen zum einen nach Fällen auf der [Karte](https://tatortrechts.de/karte) suchen und sich in ihr Bundesland bis zu ihrer Stadt reinzoomen. Zum anderen können Benutzer\*innen über eine Suchleiste anhand von Schlagworten filtern, nach bestimmten Namen oder Taten suchen. Mit erweiterten Suchfiltern kann die Suche weiter eingegrenzt werden.
 
 ### Zusammenhänge sehen
 
