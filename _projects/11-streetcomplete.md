@@ -9,13 +9,17 @@ brief: "Wir vereinfachen die Zusammenarbeit für Akteur*innen in der Seenotrettu
 summary: "CivilMRCC hat eine App entwickelt, mit deren Hilfe die Arbeit ziviler Seenotrettungsorganisationen auf dem Mittelmeer erleichtert werden soll."
 ---
 
-![](/assets/images/project_images/streetcomplete/featureGraphic.png)
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/VFpQOgAv4LQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 StreetComplete ist eine App, mit der man ganz einfach unterwegs etwas zur OpenStreetMap beitragen kann.
 
 Es ist kein Vorwissen notwendig. StreetComplete bietet also den perfekten Einstieg in OpenStreetMap als Hobby - oder auch einfach als Zeitvertreib auf Spaziergängen, der gleichzeitig Sinn macht.
 
-Alles Weitere zur Open-Source-App StreetComplete gibt es auf https://github.com/streetcomplete/StreetComplete
+Alles Weitere zur Open-Source-App StreetComplete gibt es auf [https://github.com/streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete)
+
+![](/assets/images/project_images/streetcomplete/featureGraphic.png)
 
 ## Probiere sie aus!
 

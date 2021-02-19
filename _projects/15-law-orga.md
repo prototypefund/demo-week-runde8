@@ -24,7 +24,9 @@ Einerseits mit einer Kollaborations-Komponente, kurz Collab, andererseits eine S
 
 ### Collab
 
-<video src="/assets/images/project_images/law-orga/video-collab.mp4" poster="/assets/images/project_images/law-orga/video-thumb.jpg" controls loop preload="none"></video>
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/Qd80dr-3uwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Collab bietet die Möglichkeit für die Mitglieder der RLCs, gleichzeitig kollaborativ an Dokumenten zu arbeiten. Dies ist besonders wichtig, da gerade im ehrenamtlichen Bereich viele Personen zusammen an unterschiedlichen Orten arbeiten. Gerade bei zeitkritischen Schriftsätzen ist also eine simultane Bearbeitung von Dokumenten essentiell - die dezentrale Arbeit verstärkt diesen Bedarf zusätzlich.
 Collab kann dabei über einen Reiter, wie die anderen Komponenten des Systems, ausgewählt werden.

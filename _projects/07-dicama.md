@@ -19,7 +19,9 @@ brief: "Wir entlasten Krebspatient*innen mit einem intuitiven und modularen Kreb
 summary: ""
 ---
 
-<video src="/assets/images/project_images/dicama/monk.mp4" poster="/assets/images/project_images/dicama/monk-thumb.jpg" controls loop preload="none"></video>
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/i-tPAVnNrJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Die Diagnose Krebs bedeutet nicht nur Ängste und viele Sorgen, sondern oft auch einen zweiten Vollzeitjob: Krebsmanager:in. Die Arbeit und der Organisationsaufwand rund um die Erkrankung rauben Zeit und Energie. Beides Dinge von denen gerade Menschen mit einer Krebserkrankungen nicht viel haben.
 

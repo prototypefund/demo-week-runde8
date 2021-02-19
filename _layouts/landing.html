@@ -4,7 +4,7 @@ layout: default
 
 <div class="flex-container container landing-hero justify-between">
   <div class="logo-details">
-    <img src="/assets/images/logo.svg" />
+    <img src="/assets/images/logo.svg" loading="lazy" alt="PrototypeFund Demo Week Round 8" />
     <h1 class="pink-border">Prototype</h1>
     <h1 class="blue-border">Fund</h1>
   </div>
@@ -33,17 +33,18 @@ layout: default
 <div class="flex-container container justify-between">
   <div class="header col-1">
     <p>
-      Der Prototype Fund war ursprünglich auf eine Dauer von 8 Runden ausgelegt, bevor er im vergangenen Jahr um <a
-        href="#">8
-        weitere Förderrunden</a> verlängert wurde. Wir nehmen diese Halbzeit zum Anlass, um auf die Vergangenheit, die
-      Gegenwart und die Zukunft zu blicken. Deswegen wollen wir in der Demo Week in den Fokus rücken, was wir in den
-      letzten 4 Jahren in der Förderung von Public Interest Tech erreicht haben, wo wir jetzt stehen - wo wir in den
-      kommenden 4 Jahren noch hin wollen.
+      Der Prototype Fund war ursprünglich auf eine Dauer von 8 Runden ausgelegt, bevor er <a href="#">im vergangenen
+        Jahr um 8 weitere Förderrunden verlängert wurde</a>. Wir nehmen diese Halbzeit zum Anlass, um auf die
+      Vergangenheit, die Gegenwart und die Zukunft zu blicken. Deswegen wollen wir in der Demo Week in den Fokus rücken,
+      was wir in den letzten 4 Jahren in der Förderung von Public Interest Tech erreicht haben, wo wir jetzt stehen und
+      - wo
+      wir in den kommenden 4 Jahren noch hin wollen.
     </p>
   </div>
   <div class="description">
     <p>
-      Unsere Tweets zur Demo Week erkennt ihr an <b>#prototypedemos</b> - ihr seid herzlich eingeladen mit zu zwitschern
+      Unsere Tweets zur Demo Week erkennt ihr an <b>#prototypedemos</b> - ihr seid herzlich
+      eingeladen mit zu zwitschern
       und zu
       diskutieren!<br />
       Wir wünschen euch eine inspirierende Woche!
@@ -54,25 +55,19 @@ layout: default
 <div class="flex-container video-container container justify-between" id="keynote1">
   <div class="description">
     <h2>Eröffnung</h2>
-    <p>Am <b>22.02.</b> startet die Demo Week offiziell mit unserem Livestream ab <b>18:30 Uhr</b>. Euch erwarten eine
+    <p>Am <b>22.02.</b> startet die Demo Week offiziell mit unserem Livestream ab <b>18:30 Uhr</b>. Euch erwarte
       spannende
-      Keynote, die Vorstellung der Projekte mit ersten Live-Demos sowie natürlich eine Begrüßung und Einführung durch
+      Keynote „Dreaming in Platforms“ von Cade Diehm (Gründer New Design Congress), die Vorstellung der Projekte mit
+      ersten Live-Demos sowie natürlich eine Begrüßung und Einführung durch
       das Team des Prototype Fund und das BMBF.
     </p>
     <h2>Keynotes</h2>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/KarolinSchwarz.png" />
+        <img src="/assets/images/speakers/CadeDiehm.jpg" loading="lazy" alt="Cade Diehm" />
         <div class="speaker-details">
-          <h4>Elisa Lindinger</h4>
-          <small>Autorin & Freie Journalistin</small>
-        </div>
-      </div>
-      <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/LinusNeumann.png" />
-        <div class="speaker-details">
-          <h4>Julia Kloiber</h4>
-          <small>Chaos Computer Club Sprecher</small>
+          <h4>Cade Diehm</h4>
+          <small>Gründer New Design Congress</small>
         </div>
       </div>
     </div>
@@ -82,7 +77,7 @@ layout: default
       <iframe src="https://www.youtube.com/embed/LA8ntFNBk-A?rel=0" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> -->
-  <img src="/assets/images/video_placeholder.svg" />
+  <img src="/assets/images/video_placeholder.svg" loading="lazy" alt="Placeholder for an upcoming video" />
 </div>
 </div>
 {% include separator.html %}
@@ -94,9 +89,9 @@ layout: default
   <div class="flex-container project justify-around align-center">
     <div class="project-image">
       {% if featured_project[0].image %}
-      <img src="{{ featured_project[0].image }}" />
+      <img src="{{ featured_project[0].image }}" loading="lazy" alt="{{ featured_project[0].title }}" />
       {% else %}
-      <img src="/assets/images/project_img_placeholder.png" />
+      <img src="/assets/images/project_img_placeholder.png" loading="lazy" alt="Placeholder for a project image" />
       {% endif %}
     </div>
     <div class="project-details">
@@ -133,9 +128,9 @@ layout: default
     <div class="project-image">
       <a href="{{ project.url }}" style="line-height: 0;">
         {% if project.image %}
-        <img src="{{ project.image }}" />
+        <img src="{{ project.image }}" loading="lazy" alt="{{ project.title }}" />
         {% else %}
-        <img src="/assets/images/project_img_placeholder.png" />
+        <img src="/assets/images/project_img_placeholder.png" loading="lazy" alt="Placeholder for a project image" />
         {% endif %}
       </a>
     </div>
@@ -166,69 +161,75 @@ layout: default
     <h2>Abschluss</h2>
     <p>Zum Abschluss der Demo Week am <b>26.02.</b> werden die Projektteams auf eure Fragen antworten, bevor wir mit
       einer
-      weiteren Keynote sowie einem Panel abschließen. Mit unseren Panel-Gästen wollen wir einerseits darüber sprechen,
-      was wir seit 2017 erreicht haben – andererseits möchten wir herausfinden, an welchen Stellen es
+      weiteren Keynote (Julia Kloiber und Elisa Lindinger, Gründerinnen des Superrr Lab) sowie einem Panel abschließen.
+      Mit unseren Panel-Gästen, dem Jurymitglied Michael Kreil sowie den ehemaligen Geförderten Marie Kochsiek (drip)
+      und Simon Wörpel (Annotate & Chill, Follow the Grant) wird Adriana Groh, Leiterin des Prototype Fund, darüber
+      sprechen,
+      was wir seit 2017 erreicht haben – und herausfinden, an welchen Stellen es
       Verbesserungsbedarf gibt und was wir bis 2025 anders und besser machen können. </p>
     <h2>Panel</h2>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/AnnCathrinRiedel.png" />
+        <img src="/assets/images/speakers/MichaelKreil.png" loading="lazy" alt="Michael Kreil" />
         <div class="speaker-details">
-          <h4>Ann Cathrin Riedel</h4>
-          <small>Load e. V.</small>
+          <h4>Michael Kreil</h4>
+          <small>Data Scientist, Prototype Fund Jury</small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/MatthiasKirschner.png" />
+        <img src="/assets/images/speakers/AdrianaGroh.png" loading="lazy" alt="Adriana Groh" />
         <div class="speaker-details">
-          <h4>Matthias Kirschner</h4>
-          <small>Free Software Foundation Europe</small>
+          <h4>Adriana Groh</h4>
+          <small>Director Prototype Fund</small>
         </div>
       </div>
     </div>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/MichaelWeber.png" />
+        <img src="/assets/images/speakers/MarieKochsiek.jpeg" loading="lazy" alt="Marie Kochsiek" />
         <div class="speaker-details">
-          <h4>Michael Weber</h4>
-          <small>BMBF</small>
+          <h4>Marie Kochsiek</h4>
+          <small>Softwareentwicklerin, <a href="https://bloodyhealth.gitlab.io/" target="_blank"
+              rel="noopener">drip</a></small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/AdrianaGroh.png" />
+        <img src="/assets/images/speakers/SimonWörpel.png" loading="lazy" alt="Simon Wörpel" />
         <div class="speaker-details">
-          <h4>Adriana Groh</h4>
-          <small>Prototype Fund</small>
+          <h4>Simon Wörpel</h4>
+          <small>Datenjournalist, <a href="https://prototypefund.de/project/boromeo/" target="_blank"
+              rel="noopener">Annotate & Chill</a></small>
         </div>
       </div>
     </div>
     <h2>Keynotes</h2>
     <div class="flex-container justify-start">
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/KarolinSchwarz.png" />
+        <img src="/assets/images/speakers/ElisaLindinger.png" loading="lazy" alt="Elisa Lindinger" />
         <div class="speaker-details">
-          <h4>Karolin Schwarz</h4>
-          <small>Autorin & Freie Journalistin</small>
+          <h4>Elisa Lindinger</h4>
+          <small>Co-Founder Superrr Lab</small>
         </div>
       </div>
       <div class="speaker flex-container justify-start align-center">
-        <img src="/assets/images/speakers/LinusNeumann.png" />
+        <img src="/assets/images/speakers/JuliaKloiber.png" loading="lazy" alt="Julia Kloiber" />
         <div class="speaker-details">
-          <h4>Linus Neumann</h4>
-          <small>Chaos Computer Club Sprecher</small>
+          <h4>Julia Kloiber</h4>
+          <small>Co-Founder Superrr Lab</small>
         </div>
       </div>
     </div>
   </div>
   <div class="video">
-    <div class="iframe-container">
+    <!--<div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/4VtBl9f8ayo?start=5&rel=0" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <!-- img src="/assets/images/placeholder.svg" -->
+    </div>-->
+    <img src="/assets/images/video_placeholder.svg" loading="lazy" alt="Placeholder for an upcoming video" />
   </div>
 </div>
-<img id="scroll-to-top" src="/assets/images/scroll.png" onclick="topFunction()" />
+<img id="scroll-to-top" src="/assets/images/scroll.png" loading="lazy" alt="Scroll to top button"
+  onclick="topFunction()" />
 <script>
   //Get the button
   var mybutton = document.getElementById("scroll-to-top");

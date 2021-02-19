@@ -27,7 +27,9 @@ Das Spiel ist im Wesentlichen fertig und benutzbar, und steht auf folgender Seit
 
 ## Trailer
 
-<iframe width="863" height="485" src="https://www.youtube.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Features
 

@@ -4,7 +4,6 @@ layout: default
 <div class="project-container container">
   <a href="/" class="home-link">
     <div class="flex-container justify-start align-center">
-      <img src="/assets/images/back.png" />
       <p>Zurück zur Startseite</p>
     </div>
   </a>
@@ -12,9 +11,9 @@ layout: default
     <div class="project-details">
       <div class="project-authors">
         {% for author in page.authors %}
-          <a {% if author.link %}href="{{ author.link }}"{% endif %}>
-            {{ author.author }}{% if forloop.last != true %}, {% endif %}
-          </a>
+        <a {% if author.link %}href="{{ author.link }}" {% endif %}>
+          {{ author.author }}{% if forloop.last != true %}, {% endif %}
+        </a>
         {% endfor %}
       </div>
       <h2 class="project-title">{{ page.title }}</h2>
@@ -22,16 +21,16 @@ layout: default
         {{ page.brief }}
       </p>
       {% if page.summary %}
-        <p class="project-description">
-          {{ page.summary }}
-        </p>
+      <p class="project-description">
+        {{ page.summary }}
+      </p>
       {% endif %}
     </div>
     <div class="project-image">
       {% if page.image %}
-        <img src="{{ page.image }}" />
+      <img src="{{ page.image }}" loading="lazy" />
       {% else %}
-        <img src="/assets/images/project_img_placeholder.png" />
+      <img src="/assets/images/project_img_placeholder.png" loading="lazy" />
       {% endif %}
     </div>
   </div>

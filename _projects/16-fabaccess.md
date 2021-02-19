@@ -17,17 +17,21 @@ brief: "Wir vereinfachen die Nutzungsverwaltung für offene Werkstätten."
 summary: ""
 ---
 
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/CjBEGqvV_ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Das Projekt
 
 Wir entwickeln FabAccess, ein föderierbares Verwaltungssystem für FabLabs, Makerspaces und Hackerspaces. Mit FabAccess soll der Zugriff auf Maschinen verwaltet werden, um so Unfälle zu vermeiden.
 
 # Das Team
 
-* Tasso: Product-Owner 
-* Gregor: Mädchen für alles, Backend
-* Jannis: Design, Frontend
-* Joseph: Frontend, Design
-* Kai: Infrastruktur, Libraries
+- Tasso: Product-Owner
+- Gregor: Mädchen für alles, Backend
+- Jannis: Design, Frontend
+- Joseph: Frontend, Design
+- Kai: Infrastruktur, Libraries
 
 # Das Problem
 
