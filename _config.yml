@@ -1,0 +1,9 @@
+title: Prototype Fund Demo Week 2021
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  projects:
+    output: true

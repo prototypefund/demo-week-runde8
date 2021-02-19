@@ -1,0 +1,34 @@
+.btn {
+  padding: 0.75rem 1rem;
+
+  &.project-btn {
+    background-color: $neon_pink;
+    color: $white;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    box-shadow: -0.5rem -0.5rem 0 $neon_blue;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 0 $neon_blue;
+      background-color: $neon-blue;
+    }
+  }
+}
+
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+
+  iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	}
+}

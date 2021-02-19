@@ -1,0 +1,53 @@
+.project-body {
+  max-width: 750px;
+  margin: auto;
+  margin-bottom: 10rem;
+  color: #a8a9c2;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $white;
+    margin: 1.5rem 0;
+    line-height: 150%;
+  }
+
+  img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  b,
+  strong {
+    color: #cfd0e2;
+  }
+
+  video {
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+}
+
+.project-container {
+  .home-link {
+    color: $neon_pink;
+    text-transform: uppercase;
+
+    img {
+      margin-right: 1rem;
+    }
+
+    div {
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

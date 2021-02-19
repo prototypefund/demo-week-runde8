@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+  .container.flex-container {
+    display: block;
+  }
+
+  .project.flex-container {
+    display: block;
+
+    .project-image {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .project-details {
+      width: calc(100% - 4rem);
+      margin: 2rem;
+    }
+  }
+
+  .footer-details.flex-container {
+    display: block;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  .video-container .description p {
+    margin-right: 0;
+  }
+
+  .separator-container {
+    > :nth-child(3),
+    > :nth-child(4) {
+      display: none;
+    }
+  }
+}
+
+.nav-xs-container {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .featured-projects .project {
+    padding: 0;
+  }
+
+  .landing-hero .description p {
+    margin-right: 0;
+  }
+
+  .separator-container {
+    > :nth-child(2) {
+      display: none;
+    }
+  }
+  .video-container .description > .flex-container {
+    display: block;
+
+    .speaker {
+      width: 100%;
+    }
+  }
+
+  .hidden-xs {
+    display: none;
+  }
+
+  .container {
+    width: calc(100% - 3rem)
+  }
+
+  .nav-xs-container {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    text-align: right;
+
+    ul.navs {
+      background: $background_dark;
+      padding: 1rem;
+      display: none;
+
+      li.nav-links {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .checkbox:checked ~ ul.navs {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  footer {
+    .separator-container {
+      > :nth-child(5),
+      > :nth-child(6) {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .fix-header {
+    width: 1440px;
+  }
+}

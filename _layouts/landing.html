@@ -1,0 +1,257 @@
+---
+layout: default
+---
+
+<div class="flex-container container landing-hero justify-between">
+  <div class="logo-details">
+    <img src="/assets/images/logo.svg" />
+    <h1 class="pink-border">Prototype</h1>
+    <h1 class="blue-border">Fund</h1>
+  </div>
+  <div class="description">
+    <h3>RUNDE 8</h3>
+    <p>
+      Zum Abschluss der 8. Förderrunde des Prototype Fund findet bereits zum zweiten Mal eine virtuelle Demo Week statt.
+      Vom <b>22</b>. bis <b>26. Februar 2021</b> präsentieren die <b>17 Projekte</b> hier in Form von Texten, Videos,
+      Bildern und natürlich
+      Demos die Softwareprototypen, an denen sie in den vergangenen sechs Monaten im Rahmen ihrer Förderung gearbeitet
+      haben.
+      <br /><br />
+      Am <b>Montag (22.02., 18:30)</b> startet die Demo Week mit einer <a href="#keynote1">Eröffnung</a>. In den
+      darauffolgenden Tagen stellen
+      sich die
+      <a href="#project-section">Projekte</a> vor. Am <b>Freitagabend (26.02., 17:30)</b> folgt der offizielle
+      <a href="#keynote2">Abschluss</a>.
+    </p>
+    <div class="round-7">
+      <p>Du suchst die Demo Week der Runde 7?</p>
+      <a href="#" target="_blank" rel="noopener">Hier geht es lang</a>
+    </div>
+  </div>
+</div>
+<hr />
+<div class="flex-container container justify-between">
+  <div class="header col-1">
+    <p>
+      Der Prototype Fund war ursprünglich auf eine Dauer von 8 Runden ausgelegt, bevor er im vergangenen Jahr um <a
+        href="#">8
+        weitere Förderrunden</a> verlängert wurde. Wir nehmen diese Halbzeit zum Anlass, um auf die Vergangenheit, die
+      Gegenwart und die Zukunft zu blicken. Deswegen wollen wir in der Demo Week in den Fokus rücken, was wir in den
+      letzten 4 Jahren in der Förderung von Public Interest Tech erreicht haben, wo wir jetzt stehen - wo wir in den
+      kommenden 4 Jahren noch hin wollen.
+    </p>
+  </div>
+  <div class="description">
+    <p>
+      Unsere Tweets zur Demo Week erkennt ihr an <b>#prototypedemos</b> - ihr seid herzlich eingeladen mit zu zwitschern
+      und zu
+      diskutieren!<br />
+      Wir wünschen euch eine inspirierende Woche!
+    </p>
+  </div>
+</div>
+<hr />
+<div class="flex-container video-container container justify-between" id="keynote1">
+  <div class="description">
+    <h2>Eröffnung</h2>
+    <p>Am <b>22.02.</b> startet die Demo Week offiziell mit unserem Livestream ab <b>18:30 Uhr</b>. Euch erwarten eine
+      spannende
+      Keynote, die Vorstellung der Projekte mit ersten Live-Demos sowie natürlich eine Begrüßung und Einführung durch
+      das Team des Prototype Fund und das BMBF.
+    </p>
+    <h2>Keynotes</h2>
+    <div class="flex-container justify-start">
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/KarolinSchwarz.png" />
+        <div class="speaker-details">
+          <h4>Elisa Lindinger</h4>
+          <small>Autorin & Freie Journalistin</small>
+        </div>
+      </div>
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/LinusNeumann.png" />
+        <div class="speaker-details">
+          <h4>Julia Kloiber</h4>
+          <small>Chaos Computer Club Sprecher</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="video">
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/LA8ntFNBk-A?rel=0" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div> -->
+  <img src="/assets/images/video_placeholder.svg" />
+</div>
+</div>
+{% include separator.html %}
+{% assign featured_project = site.projects | sample: 2 %}
+<div class="featured-projects container" id="project-section">
+  <span class="featured-title">
+    Projekt Highlight
+  </span>
+  <div class="flex-container project justify-around align-center">
+    <div class="project-image">
+      {% if featured_project[0].image %}
+      <img src="{{ featured_project[0].image }}" />
+      {% else %}
+      <img src="/assets/images/project_img_placeholder.png" />
+      {% endif %}
+    </div>
+    <div class="project-details">
+      <div class="project-authors">
+        {% for author in featured_project[0].authors %}
+        <a {% if author.link %}href="{{ author.link }}" {% endif %}>
+          {{ author.author }}{% if forloop.last != true %}, {% endif %}
+        </a>
+        {% endfor %}
+      </div>
+      <h2 class="project-title">{{ featured_project[0].title }}</h2>
+      <p class="project-brief">
+        {{ featured_project[0].brief }}
+      </p>
+      <p class="project-description">
+        {{ featured_project[0].summary }}
+      </p>
+      <a href="{{ featured_project[0].url }}" class="btn project-btn">View Project</a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h2 class="text-left">Alle Projekte</h2>
+  <p class="text-left project-section-desc">
+    Diese 17 Projekte haben wir in der 8. Runde des Prototype Fund mit Mitteln des BMBF von September 2020 – Februar
+    2021 gefördert. Ihr habt Fragen an ein Projekt? Schickt sie an <a
+      href="mailto:demoweek@prototypefund.de">demoweek@prototypefund.de</a> oder twittert sie mit dem
+    Hashtag <span class="hashtag">#prototypedemos</span> - beim Abschlussevent am 26.02. werden die Projekte einige
+    eurer Fragen beantworten.
+  </p>
+  {% for project in site.projects %}
+  {% assign mod = forloop.index | modulo: 2 %}
+  <div class="flex-container project {% if mod == 1%}inverse{% endif %} justify-between">
+    <div class="project-image">
+      <a href="{{ project.url }}" style="line-height: 0;">
+        {% if project.image %}
+        <img src="{{ project.image }}" />
+        {% else %}
+        <img src="/assets/images/project_img_placeholder.png" />
+        {% endif %}
+      </a>
+    </div>
+    <div class="project-details">
+      <div class="project-authors">
+        {% for author in project.authors %}
+        <a {% if author.link %}href="{{ author.link }}" {% endif %}>
+          {{ author.author }}{% if forloop.last != true %}, {% endif %}
+        </a>
+        {% endfor %}
+      </div>
+      <a href="{{ project.url }}">
+        <h2 class="project-title">
+          {{ project.title }}
+        </h2>
+      </a>
+      <p class="project-brief">
+        {{ project.brief }}
+      </p>
+      <a href="{{ project.url }}" class="btn project-btn">View Project</a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<hr />
+<div class="flex-container video-container container justify-between" id="keynote2">
+  <div class="description">
+    <h2>Abschluss</h2>
+    <p>Zum Abschluss der Demo Week am <b>26.02.</b> werden die Projektteams auf eure Fragen antworten, bevor wir mit
+      einer
+      weiteren Keynote sowie einem Panel abschließen. Mit unseren Panel-Gästen wollen wir einerseits darüber sprechen,
+      was wir seit 2017 erreicht haben – andererseits möchten wir herausfinden, an welchen Stellen es
+      Verbesserungsbedarf gibt und was wir bis 2025 anders und besser machen können. </p>
+    <h2>Panel</h2>
+    <div class="flex-container justify-start">
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/AnnCathrinRiedel.png" />
+        <div class="speaker-details">
+          <h4>Ann Cathrin Riedel</h4>
+          <small>Load e. V.</small>
+        </div>
+      </div>
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/MatthiasKirschner.png" />
+        <div class="speaker-details">
+          <h4>Matthias Kirschner</h4>
+          <small>Free Software Foundation Europe</small>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container justify-start">
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/MichaelWeber.png" />
+        <div class="speaker-details">
+          <h4>Michael Weber</h4>
+          <small>BMBF</small>
+        </div>
+      </div>
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/AdrianaGroh.png" />
+        <div class="speaker-details">
+          <h4>Adriana Groh</h4>
+          <small>Prototype Fund</small>
+        </div>
+      </div>
+    </div>
+    <h2>Keynotes</h2>
+    <div class="flex-container justify-start">
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/KarolinSchwarz.png" />
+        <div class="speaker-details">
+          <h4>Karolin Schwarz</h4>
+          <small>Autorin & Freie Journalistin</small>
+        </div>
+      </div>
+      <div class="speaker flex-container justify-start align-center">
+        <img src="/assets/images/speakers/LinusNeumann.png" />
+        <div class="speaker-details">
+          <h4>Linus Neumann</h4>
+          <small>Chaos Computer Club Sprecher</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="video">
+    <div class="iframe-container">
+      <iframe src="https://www.youtube.com/embed/4VtBl9f8ayo?start=5&rel=0" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!-- img src="/assets/images/placeholder.svg" -->
+  </div>
+</div>
+<img id="scroll-to-top" src="/assets/images/scroll.png" onclick="topFunction()" />
+<script>
+  //Get the button
+  var mybutton = document.getElementById("scroll-to-top");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<script>
+  var projects = {{ site.projects | jsonify }};
+</script>
+<script src="/assets/js/randomFeaturedProject.js"></script>
+<script src="/assets/js/fadeInPage.js"></script>
