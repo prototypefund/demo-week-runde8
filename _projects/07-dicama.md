@@ -142,6 +142,8 @@ Kein Dank geht an Covid-19, dass zwar viel Ablenkung von uns „ferngehalten“ 
 
 Github: [https://github.com/dicama](https://github.com/dicama)
 
-Demo: [Link]()
+Demo: [Link Appetize.io Demo](https://appetize.io/app/4pt777c1yb0f2vmayummg063e4?device=pixel4&scale=75&orientation=portrait&osVersion=10.0)
 
 Website: [www.monk-app.de](www.monk-app.de)
+
+Kontakt: [e-mail](info@monk-app.de)
