@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Chatmosphere"
-image: /assets/images/project_images/chatmosphere/header.jpg
+image: /assets/images/project_images/chatmosphere/packshot-header.png
 authors:
   - author: Anke Riemer
     link:
@@ -25,17 +25,15 @@ So haben wir etwa das regelmäßig stattfindende Plenum der genossenschaftlichen
 
 Chatmosphere tritt daher seit September 2020 dafür an, einen informellen und dynamischen Austausch in im digitalen Raum zu ermöglichen. Wir wollen Probleme und Potenziale von Video-Chats explorieren und haben ein Tool entwickelt, dass technische und interaktive Hürden abbaut und eine sowohl inklusive als auch organische virtuelle Kommunikation ermöglicht.
 
-Wir bauen auf der Open-Source-Software Jitsi auf und bieten eine Interface, dass zusammen mit einer Jitsi-Instanz dezentral gehostet werden kann.
+Wir bauen auf der Open-Source-Software Jitsi auf und bieten eine Interface, dass zusammen mit einer Jitsi-Instanz dezentral gehostet werden kann. 
+Die Anleitung für das Set-up findet sich [unserem GitHub-Repository](https://github.com/Chatmosphere/chatmosphere-app) und wir freuen uns über Erfahrungsberichte.
 
 ## Freie Platzwahl
 
-ie können wir die informellen Dynamiken echter Treffen, beispielsweise in einer Bar, in einem Video Call abbilden? In unserem Ansatz entsteht das Raumgefühl durch Unterschiede in der Lautstärke verschiedener Teilnehmer:innen zueinander. Je näher die Nutzer:innen mit ihrem Videobild anderen Nutzer:innen kommen, desto lauter können sie sich gegenseitig hören. Zur Verdeutlichung dieses Prinzips ist die kreisförmige Video-Repräsentation der Nutzer:innen mit einem Umkreis versehen, der die maximale Hörweite anzeigt. Das Interaktionsparadigma ist die freien Positionierung der eigenen Video-Repräsentation im Raum durch Drag and Drop.
+Wie können wir die informellen Dynamiken echter Treffen, beispielsweise in einer Bar, in einem Video Call abbilden? In unserem Ansatz entsteht das Raumgefühl durch Unterschiede in der Lautstärke verschiedener Teilnehmer:innen zueinander. Je näher die Nutzer:innen mit ihrem Videobild anderen Nutzer:innen kommen, desto lauter können sie sich gegenseitig hören. Zur Verdeutlichung dieses Prinzips ist die kreisförmige Video-Repräsentation der Nutzer:innen mit einem Umkreis versehen, der die maximale Hörweite anzeigt. Das Interaktionsparadigma ist die freien Positionierung der eigenen Video-Repräsentation im Raum durch Drag and Drop.
 
 <video src="/assets/images/project_images/chatmosphere/Chatmosphere_PrivateConversations.mp4" controls muted loop></video>
-
-(Screencast “Private Conversation”, bitte entweder als video oder gif einbetten)
-
-Nutzer:innen können sich also frei im Raum bewegen, sich zu kleineren Konversationen zusammenfinden oder diese unkompliziert wechseln.
+*Nutzer:innen können sich also frei im Raum bewegen, sich zu kleineren Konversationen zusammenfinden oder diese unkompliziert wechseln.*
 
 Es ist kein Herunterladen einer App oder eine Registrierung nötig. Eingeladene Nutzer:innen landen über einen Einladungslink direkt im Video-Call-Raum. Wir haben in unseren Tests gelernt, dass sich, in weniger digital affinen Gruppen, gerade diese direkte Teilnahmemöglichkeit bewährt hat. Solange die Person, die zum Call eingeladen hat schon im Raum anwesend ist, wird auch das Onboarding dynamisch: Die Bedienung kann gegenseitig erklärt werden, wenn beispielsweise Drag and Drop von ältere Teilnehmer:innen nicht durch ausprobieren exploriert werden konnte.
 
@@ -45,8 +43,7 @@ Der Ansatz „Fail fast, fail often“ hat sich von Anfang an ausgezahlt. Bereit
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Mischpult.png)
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Setup.png)
-
-Links: Das Schatten-Setup / Rechts: Der User bedient eine augenscheinlich funktionierende Software
+*Oben: Das Schatten-Setup / Unten: Der User bedient eine augenscheinlich funktionierende Software*
 
 Bereits in diesem Setting erwiesen sich einige Teile der angedachten Interaktionsparadigmen besonders für unbedarfte User als problematisch.
 
@@ -54,15 +51,14 @@ Neben [kleiner Korrekturen initialer Annahmen](https://chatmosphere.cc/user-test
 
 Ein weiterer Test im Herbst 2020 hat uns auch vor Augen geführt, dass manche Annahmen eben nur Annahmen sind, die getestet werden müssen. Zum Beispiel wie “intuitiv” ein Interaktionspattern wie Drag and Drop wirklich ist, und welche Vorstellungen Nutzer:innen wohl haben, wenn sie andere Gesprächsteilnehmer:innen zwar sehen, aber nicht hören können. Zusammen mit den technischen Problemen, die viele der Test-User bei Video-Calls schon erlebt hatten, wurde manchmal lieber der Rechner neu gestartet, als der Versuch gewagt, sein eigenes Video per Drag and Drop auf dem Canvas zu bewegen.
 
-Ein sich verloren fühlender User in der linken, oberen Ecke. Er kann niemanden hören und ihn hört auch niemand. Da er die Drag-and-Drop-Interaktion nicht von sich aus vermutet hat, findet er keinen Zugang zum Gespräch.
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_LostUser.png)
+*Ein sich verloren fühlender User in der linken, oberen Ecke. Er kann niemanden hören und ihn hört auch niemand. Da er die Drag-and-Drop-Interaktion nicht von sich aus vermutet hat, findet er keinen Zugang zum Gespräch.*
 
 Großartig war es dagegen zu sehen, dass andere Grundannahmen von den Nutzern:innen nach dem Erlernen des Interaktionsparadigmas weiter bestätigt wurden. So erwähnten Teilnehmer:innen etwa das “angenehme Setting”, in dem man ungezwungen seine Fokus verlagern und interessengesteuert an Gesprächen partizipieren kann. Hier wurde besonders die “sich natürlich anfühlende Möglichkeit” herausgestellt, schnell in temporäre private Gespräche aus größeren Runden auszubrechen zu können. Das positive Feedback auf unsere generelle Projektidee und all die neuen Feature Ideen und Anwendungsszenarien die in den Tests entstanden sind haben zu einem großen Motivationsschub geführt.
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_SplitConversations.png)
-
-Verschiedene, gleichzeitig laufende Gespräche zu verschiedenen Themen im selben Raum.
+*Verschiedene, gleichzeitig laufende Gespräche zu verschiedenen Themen im selben Raum.*
 
 ## Die Ernüchterung des Nicht-Tuns
 
@@ -70,13 +66,12 @@ Doch wie lange mit neuen Ideen experimentieren und wann fängt man an eine der I
 
 ## Einfach Coden 
 
-> “Coden wir lieber etwas oldschool, um den Einstieg einfacher zu machen und nachvollziehbar für potenzielle Contributors zu bleiben oder nutzen wir den neuesten heißen Shize?”
+> “Coden wir lieber etwas oldschool, um den Einstieg einfacher zu machen und nachvollziehbar für potenzielle Contributors zu bleiben oder nutzen wir die neuesten heißen Libraries?”
 
 Wie können andere (bei uns vor allem Designer:innen) im Sinne von Open Source möglichst einfach und selbstständig partizipieren? Contributions für und von nicht-Coder:innen sind super wertvoll, scheitern aber leider noch immer recht oft an hohen technische Hürden. Gezeigt hat sich das bei uns vor allem entlang der Logik von Styled-Components und Typescript.
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_Code.png)
-
-CSS in themed, styled Components
+*CSS mit Themes in Styled Components*
 
 Beides ist prinzipiell enorm hilfreich, erzeugt aber eine weitere Abstraktion und damit Hürde für Partizipierende. So sollten die Styled Components vor allem die gemeinsame Arbeit am CSS reaktiver UI-Elementen mit Designer:innen erleichtern. Diese Hoffnung wurde in unserem Kontext leider nicht eingelöst, da die Implementierung der Styles (vor allem, wenn Theming verwendet wird) doch mehr Verständnis von Modulen, Build-Prozessen und Variablen voraussetzt, als initial erwartet. Da wir Zugänglichkeit und Partizipation für Hilfswillige aller Couleur ermöglichen wollen, würden wir in Zukunft, trotz der Vorteile durch Modularität zugunsten von Zugänglichkeit durch einfache Styles entscheiden.
 
@@ -84,7 +79,7 @@ Beides ist prinzipiell enorm hilfreich, erzeugt aber eine weitere Abstraktion un
 
 An dieser Stelle wollen wir betonen, wie hilfreich diese explorative Arbeit im Rahmen des Protoype Funds für uns war: Hätten wir den Druck, ein konkurrenzfähiges Produkt zu entwickeln, hätten wir wahrscheinlich schon im Spätsommer einen Richtungswechsel in Richtung eines Workshop-Tools vorgenommen. Viele Tester:innen wollten die Ecken als Break-Out-Room-Ersatz verwenden und konnten sich Chatmosphere als Workshop-Tool vorstellen, vorausgesetzt die klassischen Zoom-Features würden abgebildet. Hierzu gab es auch eine konkrete Anfragen aus dem Unternehmenskontext. Allerdings hätten wir dafür den Fokus verändern müssen. Von informeller Gesprächsdynamik und Dokumentation auf Skalierung der Teilnehmer:innenanzahl, Whiteboardfunktionen, und Screensharing. Also einen Fokus hin zu wieder einem Meeting-Tool.
 
-Wenn Zeit und Ressourcen vorhanden sind, spricht sicher nichts dagegen, weitere Features einzubauen. Auch solche, die wir aus bekannten Video-Call-Tools kennen. Doch im Fokus soll die zwischenmenschliche Interaktion bleiben, das fluide, das unmoderierte. Und die Förderung als Open-Source-Projekt hat hier möglich gemacht, dass wir mehr an [Dokumentation und Anschlussfähigkeit](https://github.com/Chatmosphere/chatmosphere-app) durch andere gearbeitet haben, als an Pitches und Features um uns zu differenzieren. Danke an der Stelle auch an unseren Mentor [Cade](https://newdesigncongress.org/en/), sowie Marie und Tasmo, die zu diesem Thema sehr hilfreiche Gesprächpartner:innen waren.
+Wenn Zeit und Ressourcen vorhanden sind, spricht sicher nichts dagegen, weitere Features einzubauen. Auch solche, die wir aus bekannten Video-Call-Tools kennen. Doch im Fokus soll die zwischenmenschliche Interaktion bleiben, das fluide, das unmoderierte. Und die Förderung als Open-Source-Projekt hat hier möglich gemacht, dass wir mehr an [Dokumentation und Anschlussfähigkeit](https://github.com/Chatmosphere/chatmosphere-app) durch andere gearbeitet haben, als an Pitches und Features um uns zu differenzieren. Danke an der Stelle auch an unseren Mentor [Cade](https://newdesigncongress.org/en/), sowie Marie und Tasmo vom Prototype Fund Team, die zu diesem Thema sehr hilfreiche Gesprächpartner:innen waren.
 
 ## Lessons learned 
 
@@ -123,7 +118,7 @@ Leider ist nichts langweiliger als sich allein in der Demo eines Video-Chats wie
 
 [https://demo.chatmosphere.cc/](https://demo.chatmosphere.cc/)
 
-Ihr seid sichtbar und könnt euch im Raum frei bewegen - eigentlich alles so wie damals, als wir uns noch in Kneipen treffen konnten. Es gilt also nach wie vor: [Be excellent to each other](https://github.com/Chatmosphere/chatmosphere-app/blob/master/CODE_OF_CONDUCT.md).
+Ihr seid sichtbar und könnt euch im Raum frei bewegen - eigentlich alles so wie damals, als wir uns noch in Kneipen treffen konnten. Es gilt also nach wie vor: [Be excellent to each other](https://github.com/Chatmosphere/chatmosphere-app/blob/master/docs/CODE_OF_CONDUCT.md).
 
 Wir bitten euch den Einladungslink an einem Laptop oder Computer in Chrome zu öffnen, da unser Prototyp noch nicht auf allen Browsern stabil läuft. Mobile Phones oder Touch Devices sind auch nicht geeignet (da würdet ihr eh auch kaum jemanden sehen).
 
