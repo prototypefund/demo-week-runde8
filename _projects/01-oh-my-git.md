@@ -11,7 +11,11 @@ brief: "Wir erschaffen einen spielerischen Zugang zum Lernen von Git."
 summary: "Das Lernspiel bietet eine interaktive Einführung in das Versionskontrollsystem Git, und ermöglicht so souveräne und effiziente Zusammenzuarbeit beim Programmieren."
 ---
 
-# Wir erschaffen einen spielerischen Zugang zum Lernen von Git.
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## Motivation
 
 Wenn man im Team Software entwickelt, steht man vor einem Problem: Wie tauscht man den Quelltext untereinander aus? Klar, eine Möglichkeit wäre, ihn auf USB-Sticks oder per E-Mail hin- und her zu schicken, aber es gibt eine bessere Möglichkeit: Sogenannte "Versionskontrollsysteme"! Das sind kleine Hilfprogramme, welche die Zusammenarbeit an beliebigen Textdateien über das Internet erleichtern.
 
@@ -21,15 +25,10 @@ Git hat allerdings den notorischen Ruf, eine steile Lernkurve zu haben. Es beinh
 
 ## Download
 
-Das Spiel ist im Wesentlichen fertig und benutzbar, und steht auf folgender Seite für Linux, macOS und Windows zum Download bereit:
+Das Spiel ist im Wesentlichen **fertig und benutzbar**, und steht auf [ohmygit.org](https://ohmygit.org) für Linux, macOS und Windows zum Download bereit:
 
-[blinry.itch.io/git-hydra](https://blinry.itch.io/git-hydra)
-
-## Trailer
-
-<div class="iframe-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<br>
+<a href="https://ohmygit.org" class="btn project-btn" target="_blank">Zum Download!</a>
 
 ## Features
 
@@ -123,7 +122,7 @@ Unser Freund [winniehell](https://winniehell.de) produzierte außerdem einen **S
 
 Diese Version des Spiels stellten wir in einem 15-minütigen Vortrag auf Europas größter Open Source-Konferenz vor, der FOSDEM:
 
-<iframe width="863" height="485" src="https://www.youtube.com/embed/mTxpLX8wh0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video controls src="https://video.fosdem.org/2021/L.lightningtalks/git_learning_game.webm"></video>
 
 ## Danke!
 
@@ -137,8 +136,8 @@ Wir sind am Ende dieses Projektes insbesondere an Kontakt zu Menschen interessie
 
 Und auch Feedback zum Spiel selbst ist stets sehr willkommen, und hilft uns, es besser zu machen! Vielen Dank für's Lesen! :)
 
-- [Downloadseite auf itch.io](https://blinry.itch.io/oh-my-git)
-- [Projekt auf GitHub](https://github.com/git-learning-game/oh-my-git)
+- [Projektwebseite ohmygit.org](https://ohmygit.org)
+- [Quelltext auf GitHub](https://github.com/git-learning-game/oh-my-git)
 
 - bleeptrack: [Homepage](http://bleeptrack.de), [Twitter](https://twitter.com/bleeptrack)
 - blinry: [Homepage](https://morr.cc), [Twitter](https://twitter.com/blinry)
