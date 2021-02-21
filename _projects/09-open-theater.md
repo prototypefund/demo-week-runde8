@@ -24,4 +24,4 @@ Erste Einsätze werden sowohl in Deutschland als auch in Frankreich stattfinden,
 Darüber hinaus kann die API von anderen Entwickler:innen als Basis für weitere Formate und Anwendungen genutzt werden. So muss der Anwendungsfall nicht auf performativen Künste und der Interaktion mit den Smartphones der Zuschauer:innen beschränkt bleiben.
 Während das ]OPEN THEATER[ Projekt die Darstellung von Text-, Audio- und Videoinhalten auf mitgebrachten Geräten im Fokus hat, ist auch eine Erweiterung für Bilder bereits angelegt. Es ist durchaus denkbar, dass die Anwendungen von anderen Communities in ganz anderer Weise genutzt werden – z. B. bei einer Multi-Track-Sound-Performance in der freien Künstler:innenszene oder bei einer Stadtführung, bei der Informationen mit historischen oder aktuellen Zitaten, Bildern und/oder Videos für alle Teilnehmenden unterlegt werden können. Das sind nur zwei Beispiele, die aber die Bandbreite der möglichen Anwendungen andeuten.
 
-[www.open-theater.de](www.open-theater.de)
+[www.open-theater.de](https://www.open-theater.de)
