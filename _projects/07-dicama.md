@@ -15,7 +15,7 @@ authors:
     link:
   - author: Dennise Cepeda
     link:
-brief: "Wir entlasten Krebspatient*innen mit einem intuitiven und modularen Krebsmanagement."
+brief: "Wir entlasten Krebspatient:innen mit einem intuitiven und modularen Krebsmanagement."
 summary: ""
 ---
 
@@ -144,6 +144,6 @@ Github: [https://github.com/dicama](https://github.com/dicama)
 
 Demo: [Link Appetize.io Demo](https://appetize.io/app/4pt777c1yb0f2vmayummg063e4?device=pixel4&scale=75&orientation=portrait&osVersion=10.0)
 
-Website: [www.monk-app.de](www.monk-app.de)
+Website: [www.monk-app.de](http://www.monk-app.de/)
 
-Kontakt: [e-mail](info@monk-app.de)
+Kontakt: [e-mail](mailto:info@monk-app.de)
