@@ -1,7 +1,8 @@
 ---
-title: Stream
+title: Live stream
 layout: stream
 published: true
+image: /assets/images/streaming.jpg
 ---
 
 <div class="iframe-container">
