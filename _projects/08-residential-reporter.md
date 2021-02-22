@@ -13,6 +13,10 @@ summary: "Die Residential Reporter App wird den Bürger:innen die Möglichkeit g
 
 Ein Projekt zur Optimierung des Wohnraums durch Aggregation und Erforschung von offenen Daten.
 
+## Link zur Demo
+
+Hier gibt es die (noch in Entwicklung befindliche) Demo-Plattform: [https://residentialreporter.eu](https://residentialreporter.eu)
+
 ## Problemimmobilien erfassbar machen
 
 Die Residential Reporter App wird den Bürger:innen die Möglichkeit geben, mehr auf die Stadtentwicklung Einfluss zu nehmen und sich besser konstruktiv zu beteiligen. Sie soll dazu beitragen, gesetzliche Maßnahmen besser durchzusetzen um vorhandenen Wohnraum effektiver vor Missbrauch schützen zu können.
@@ -25,6 +29,7 @@ Berlins bin ich davon enttäuscht, dass aktuell keine sinnvolle Meldeplattform f
 ### Probleme melden
 
 Nach der Registrierung können Nutzer:innen einen neuen Eintrag anlegen. Hierzu wird eine einfache, kartenbasierte Schnittstelle mit einem Formular kombiniert. Im ersten Schritt kann per direkter Addresseingabe oder Auswahl auf der Karte die betroffene Wohnung ausgewählt werden. Zusätzliche relevante Daten zur Immobilie können dann im Formular angegeben werden. Weitere Formularfelder dienen der Erfassung des konkreten Problems, wie zum Beispiel illegal andauernder Leerstand, Mängel oder Eigenbedarfskündigungen. Abschließend werden die Daten noch einmal zur Überprüfung angezeigt und - falls nichts beanstandet wird - zur Moderation und darauf folgenden Veröffentlichung auf der öffentlichen Plattform hinterlegt.
+<img src="/assets/images/project_images/residential-reporter/mangelmelden.png" alt="Wohnraum Mängel melden"/>
 
 ### Probleme analysieren
 
@@ -36,7 +41,11 @@ Zur Qualitätssicherung und aus rechtlichen Gründen können Meldungen nur nach 
 
 ### Regionale Gruppierung
 
-Zur besseren Skalierung des Residential Reporters werden geographisch zusammenhängende Regionen (z. B. Region Berlin) formiert, um einerseits regionale Analysen durchführen zu können, aber auch um den notwendigen Moderationsaufwand besser zu verteilen. Neue Meldungen werden diesen regionale Gruppen zugeordnet und von diesen durch ein Moderationsteam moderiert. Neue Regionen können durch eine:n Administrator:in erzeugt und mit einem/einer lokalen Regions-Administrator:in versehen werden. Diese:r kümmert sich um die Ernennung von weiteren Regions-Administrator:innen und Moderator:innen für die jeweilige regionale Gruppe.
+Zur besseren Skalierung des Residential Reporters werden geographisch zusammenhängende Regionen (z. B. Region Berlin) formiert, um einerseits regionale Analysen durchführen zu können, aber auch um den notwendigen Moderationsaufwand besser zu verteilen. Neue Meldungen werden diesen regionale Gruppen zugeordnet und von diesen durch ein Moderationsteam moderiert.
+<img src="/assets/images/project_images/residential-reporter/regionenliste.png" alt="Beispielhafte List von Regionen"/>
+
+Neue Regionen können durch eine:n Administrator:in erzeugt und mit einem/einer lokalen Regions-Administrator:in versehen werden. Diese:r kümmert sich um die Ernennung von weiteren Regions-Administrator:innen und Moderator:innen für die jeweilige regionale Gruppe.
+<img src="/assets/images/project_images/residential-reporter/regionanlegen.png" alt="Region anlegen"/>
 
 ### Demokratischer Prozess
 
@@ -81,6 +90,8 @@ Die Residential Reporter-Community lädt alle Organisationen und Bürger:innen d
 Zur Entwicklung und Realisierung des Residential Reporters wird das Isomer Application Framework verwendet. Isomer ist ein junges, modernes Framework um schnell und effizient verteilte Anwendungen jeglicher Art zu entwickeln. Es hat einen besonderen Fokus auf Geodaten, asynchrone Prozesse und die Integration externer Daten. Technisch setzt es auf eine Komponenten- und Ereignis-basierte Infrastruktur, welche mit Python entwickelt wird. Dies erlaubt insbesondere schnelle Weiterentwicklung und das einfache Einbinden von Wissenschaftler:innen. Statt das in Isomer eingebaute, generische Frontend zu verwenden wird für den Residential Reporter ein eigenständiges und projektspezifisches Frontend gebaut. Dieses basiert auf Ionic um Zukunftssicherheit und größtmögliche Plattformunabhängigkeit zu garantieren. Prototypische Nutzung im Kontext Residential Reporter bedeutet für Isomer den erstmaligen Einsatz zur Bedienung der breiten Öffentlichkeit, anstatt der bisher eher kleinen und geschlosseneren Nutzer:innengruppen. Mehr Informationen zu Isomer gibt es auf der Webseite zum Projekt:
 
 [https://isomer.eu](https://isomer.eu)
+
+<img src="/assets/images/project_images/residential-reporter/android.png" alt="Residential Reporter Android App"/>
 
 ## Zukunft
 
