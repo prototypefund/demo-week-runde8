@@ -58,7 +58,7 @@ Direkt zu Anfang konnten wir außerdem eine Cloud-Umgebung mit [Prometheus](http
 
 ### Fazit
 
-Law&Orga ist schon in einigen RLCs in aktiver Benutzung. Mit der Implementierung dieser weiteren Komponenten können wir die Attraktivität des Systems für weitere Vereine weiter steigern und für unsere Nutzer:innen einen großen Mehrwert bieten. Denn hierdurch können sie effektiver und qualitativ hochwertiger Menschen in Not in helfen.
-Wir hoffen dem System in Zukunft weitere große Komponenten und viele kleine Verbesserungen hinzufügen zu können, um mittelfristig ein System bieten zu können, welches alle Bedarfe der RLCs datenschutzkonform, individualisierbar und zugeschnitten auf ihre Bedarfe deckt.
+Law&Orga ist schon in einigen RLCs in aktiver Benutzung. Mit der Implementierung dieser weiteren Komponenten können wir die Attraktivität des Systems für weitere Vereine weiter steigern und für unsere Nutzer:innen einen großen Mehrwert bieten. Denn hierdurch können sie effektiver und qualitativ hochwertiger Menschen in Not helfen.
+Wir hoffen dem System in Zukunft weitere große Komponenten und viele kleine Verbesserungen hinzufügen zu können, um mittelfristig ein System bieten zu können, welches alle Bedarfe der RLCs datenschutzkonform, individualisierbar und anpassbar deckt.
 
-Wir bedanken und herzlich beim Bundesministerium für Bildung und Forschung sowie beim Projektträger DLR und dem Prototype Fund.
+Wir bedanken uns herzlich beim Bundesministerium für Bildung und Forschung sowie beim Projektträger DLR und dem Prototype Fund.
