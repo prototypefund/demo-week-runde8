@@ -7,8 +7,8 @@ authors:
     link:
   - author: Michiel Nuyts
     link:
-brief: "Wir arbeiten mit RiseupVPN und OONI, um Internetzensur zu erkennen und Nutzer:innen davor zu schützen."
-summary: ""
+brief: "Zensur erkennen und Nutzer:innen mehr Konnektivität bieten."
+summary: "Wir arbeiten mit RiseupVPN und OONI, um Internetzensur zu erkennen und Nutzer:innen davor zu schützen."
 ---
 
 # **Internetzensur mit RiseupVPN und OONI umgehen**
