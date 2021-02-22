@@ -13,7 +13,7 @@ authors:
     link:
   - author: Julia Baumhauer
     link:
-brief: "Wir vereinfachen den Zugang zu direkter Demokratie in Deutschland."
+brief: "Wir helfen dabei, Volksbegehren durchzuführen."
 summary: "Das Direkte-Demokratie-Digital-Tool ermöglicht es Kampagnen eine Volksinitiativen-Plattform zu erstellen und hilft ihnen den analogen Prozess des Unterschriftensammelns digital zu unterstützen."
 ---
 

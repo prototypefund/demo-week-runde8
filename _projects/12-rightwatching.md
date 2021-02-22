@@ -3,8 +3,11 @@ layout: project
 title: "Rightwatching - den rechten Rand im Auge behalten"
 image: /assets/images/project_images/rightwatching/header.jpg
 authors:
-  - author: "Christoph Trost, Michal Dreifuss, Jakob Kutsch"
+  - author: "Christoph Trost"
     link:
+  - author: "Michal Dreifuss"
+    link: 
+  - author: "Jakob Kutsch"
 brief: "Wir helfen dabei, rechte Gewalttaten auszuwerten."
 summary: ""
 ---

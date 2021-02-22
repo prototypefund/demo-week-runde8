@@ -5,8 +5,8 @@ image: /assets/images/project_images/streetcomplete/header.jpg
 authors:
   - author: Tobias Zwick
     link:
-brief: "Wir vereinfachen die Zusammenarbeit für Akteur*innen in der Seenotrettung."
-summary: "CivilMRCC hat eine App entwickelt, mit deren Hilfe die Arbeit ziviler Seenotrettungsorganisationen auf dem Mittelmeer erleichtert werden soll."
+brief: "Wir vervollständigen die OpenStreetMap mithilfe von Gamifizierung."
+summary: ""
 ---
 
 <div class="iframe-container">

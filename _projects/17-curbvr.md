@@ -11,7 +11,7 @@ authors:
     link:
   - author: Christopher Remde
     link:
-brief: "Wir machen den Klimawandel mithilfe von Virtual Reality für Schüler*innen erlebbar."
+brief: "Wir machen den Klimawandel mithilfe von Virtual Reality für Schüler:innen erlebbar."
 summary: ""
 ---
 
