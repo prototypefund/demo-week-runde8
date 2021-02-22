@@ -12,7 +12,7 @@ summary: "Das Lernspiel bietet eine interaktive Einführung in das Versionskontr
 ---
 
 <div class="iframe-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube-nocookie.com/embed/oh7pNPdEmrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Motivation
@@ -31,6 +31,10 @@ Das Spiel ist im Wesentlichen **fertig und benutzbar**, und steht auf [ohmygit.o
 <a href="https://ohmygit.org" class="btn project-btn" target="_blank">Zum Download!</a>
 
 ## Features
+
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Visualisierung des Git-Projektes
 
