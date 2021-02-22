@@ -35,7 +35,7 @@ Johannes ist der Softwareentwickler in diesem Projekt, hat die Seite gebaut, die
 
 Im Februar 2016, also vor ungefähr 5 Jahren, ist Johannes das erste mal auf die Daten von Projekten gestoßen, die Fälle mit rechtem Bezug dokumentieren. Die Fälle schreiben die Projekte als lange Liste auf ihre Webseite. Schon damals dachte er, dass eine Karte eine bessere Darstellungsform ist. So programmierte er eine kleine Webseite, sie ist [noch heute online](https://vis.one/rechte-gewalt/). Es war seine allererste Website bzw. interaktive Datenvisualisierung.
 
-Anfang des Jahres 2020 haben wir uns auf dem [Netzwerk Recherche](https://netzwerkrecherche.org) - Stammtisch getroffen. Wir haben festgestellt, das wir den Prototypen weiterentwickeln wollen und haben die Jury mit einer starken Bewerbung überzeugen können.
+Anfang des Jahres 2020 haben wir uns auf dem [Netzwerk Recherche](https://netzwerkrecherche.org)-Stammtisch getroffen. Wir haben festgestellt, dass wir den Prototypen weiterentwickeln wollen und haben die Jury mit einer starken Bewerbung überzeugen können.
 
 ### Neuentwicklung: Tatort Rechts
 
@@ -61,7 +61,7 @@ Die Daten werden von den jeweiligen Organisationen erhoben, die jeweils auch eig
 
 ### Was wir anderen raten
 
-1. Sprache: Zunächst mussten wir lernen, das wir zwar beide Deutsch sprechen, aber doch manchmal nicht dieselbe Sprache sprechen. Wir mussten uns am Anfang erstmal einfinden in die jeweils andere Denkweise, aus Journalismus und Tech.
+1. Sprache: Zunächst mussten wir lernen, dass wir zwar beide Deutsch sprechen, aber doch manchmal nicht dieselbe Sprache sprechen. Wir mussten uns am Anfang erstmal einfinden in die jeweils andere Denkweise aus Journalismus und Tech.
 2. Austausch: Was uns sehr geholfen hat, war ein regelmäßiger Austausch. Nicht nur untereinander, sondern auch mit anderen Teams. So hatten wir immer einen Abgleich, was passiert gerade im anderen Team, wie ist der Stand, welche Probleme gibt, welche Fortschritte.
 3. Deadlines: Wir haben uns immer wieder Deadlines gesetzt, bis wann wir was fertig haben wollte. Dadurch haben wir immer einen guten Überblick über den Zeitplan gehabt und konnten rechtzeitig veröffentlichen.
 
