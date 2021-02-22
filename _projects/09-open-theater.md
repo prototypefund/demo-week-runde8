@@ -13,6 +13,10 @@ brief: "Wir überbrücken Sprachbarrieren für mehr Zugänglichkeit an Theatern 
 summary: ""
 ---
 
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/VewFtLGbNhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> 
+
 ]OPEN THEATER[  ist eine interoperable API, die entwickelt wurde, um im Kontext von Theatern und Opern unterschiedliche Inhalte wie Text, Ton oder Video auf die von Zuschauenden mitgebrachten Geräte zu übertragen und zu gewünschten Zeitpunkten auszulösen.
 
 Ausgang war ein Pilotprojekt, an dem das ]OPEN THEATER[ Team mit dem [Theater NT Gent](https://www.ntgent.be/en/), dem Fachbereich für Angewandte Linguistik, Übersetzung und Dolmetschen der [Universität Antwerpen](https://www.uantwerpen.be/en/staff/?dept=UA273) und der Berliner Übertitelungs-Firma [Panthea](https://panthea.com/) teilnahm. Hier wurden erstmalig Übertitel, Audiodeskription und eine Videospur mit getriggerter Gebärdensprach-Übersetzung gleichzeitig in einem System übertragen.
