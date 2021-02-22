@@ -7,7 +7,7 @@ authors:
     link:
   - author: Michiel Nuyts
     link:
-brief: "Zensur erkennen und Nutzer:innen mehr Konnektivität bieten."
+brief: "Zensur erkennen und Nutzer:innen Konnektivität steigern."
 summary: "Wir arbeiten mit RiseupVPN und OONI, um Internetzensur zu erkennen und Nutzer:innen davor zu schützen."
 ---
 
