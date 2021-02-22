@@ -32,10 +32,6 @@ Das Spiel ist im Wesentlichen **fertig und benutzbar**, und steht auf [ohmygit.o
 
 ## Features
 
-<div class="iframe-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/1iOnNcOU0X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 ### Visualisierung des Git-Projektes
 
 Oh My Git! stellt die internen Strukturen eines Git-Projektes visuell und in Echtzeit dar. Die Auswirkungen von Interaktionen damit sind sofort grafisch sichtbar:
