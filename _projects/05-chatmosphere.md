@@ -17,7 +17,7 @@ summary: ""
 
 ### Einladung zur Live-Demo
 
-Wir laden wir am Dienstag, den 23.02., ab 19.00 zu einem informellen Treffen ein. Irgendwo zwischen Meet&Greet und Feierabendbier ist jede:r eingeladen Chatmosphere auszuprobieren:
+Wir laden heute am Dienstag, den 23.02., ab 19.00 zu einem informellen Treffen ein. Irgendwo zwischen Meet&Greet und Feierabendbier ist jede:r eingeladen Chatmosphere auszuprobieren:
 
 [https://demo.chatmosphere.cc/](https://demo.chatmosphere.cc/)
 
