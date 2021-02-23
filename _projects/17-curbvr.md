@@ -51,15 +51,15 @@ CURB VR ist in drei Teilen aufgebaut.
 
 Im ersten Teil beschäftigen sich die Lernenden damit, was überhaupt „das Klima“ ist. Sie lernen niedrigschwellig die Grundprinzipien des Treibhauseffekts und des Kohlenstoffkreislaufs kennen. In diesem Schritt sensibilisiert die App dafür, dass der Mensch Einfluss auf diese Phänomene hat.
 
-(screenshot)
+![Treibhaus](/assets/images/project_images/curbvr/CURB_1_Treibhaus.gif)
 
 Im zweiten Abschnitt erleben die Nutzer:innen dann, wieviel CO2 der Mensch in verschiedenen Sektoren produziert. Hierfür wächst man in drei Stufen über eine symbolische Stadt hinaus und entdeckt immer größere Perspektiven auf den CO2-Ausstoß, bis man über die Wolken ragt und über das gesamte Ausmaß lernt.
 
-(screenshot)
+![City](/assets/images/project_images/curbvr/CURB_2_City.png)
 
 Im dritten und letzten Teil der App wird CURB VR auf die Auswirkungen des Klimawandels eingehen. Hier werden zukünftig zum Beispiel Waldbrände oder die schädliche Veränderung von Cyanobakterien im Wasser näher betrachtet und in realistischen Simulationen nähergebracht.
 
-(demo)
+![Walbrand](/assets/images/project_images/curbvr/CURB_3_Waldbrand.gif)
 
 Der Grundton der App soll nicht apokalyptisch sein. Vielmehr geht es um Empowerment: Das Begreifen, dass das eigene Handeln einen Effekt (wenn auch einen kleinen) auf den Klimawandel hat, ist das oberste Ziel unserer Lernanwendung.
 
