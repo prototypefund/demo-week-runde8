@@ -15,6 +15,22 @@ summary: ""
 
 # Chatmosphere
 
+### Einladung zur Live-Demo
+
+Wir laden wir am Dienstag, den 23.02., ab 19.00 zu einem informellen Treffen ein. Irgendwo zwischen Meet&Greet und Feierabendbier ist jede:r eingeladen Chatmosphere auszuprobieren:
+
+[https://demo.chatmosphere.cc/](https://demo.chatmosphere.cc/)
+
+Ihr seid sichtbar und könnt euch im Raum frei bewegen - eigentlich alles so wie damals, als wir uns noch in Kneipen treffen konnten. Es gilt also nach wie vor: [Be excellent to each other](https://github.com/Chatmosphere/chatmosphere-app/blob/master/docs/CODE_OF_CONDUCT.md).
+
+Wir bitten euch den Einladungslink an einem Laptop oder Computer in Chrome zu öffnen, da unser Prototyp noch nicht auf allen Browsern stabil läuft. Mobile Phones oder Touch Devices sind auch nicht geeignet (da würdet ihr eh auch kaum jemanden sehen).
+
+**Disclaimer**: Je nach Menge an Besucher:innnen kann es zu Bandbreitenproblemen kommen. Bisher hatten wir den Punkt noch nicht erreicht, aber das kann ja noch kommen.
+
+Wir freuen uns auf euch!
+
+### Idee
+
 Die Idee zu Chatmosphere hat ihren Ursprung in der Zeit des ersten Corona-Lockdowns im Frühjahr 2020. Durch das Distanzierungsgebot erlangten damals virtuelle Zusammenkünfte, insbesondere Videokonferenzen, einen neuen Stellenwert.
 
 So haben wir etwa das regelmäßig stattfindende Plenum der genossenschaftlichen Bar, in welcher wir Mitglieder sind, durch Video-Calls ersetzt. Schnell wurde das Bedürfnis nach informellem Austausch immer größer, was um schließlich dazu bewogen hat, eine virtuelle Bar ins Leben zu rufen. Vom Feierabendbier bis zur Geburtstagsfeier sind immer mehr Events im virtuellen Raum getestet worden. Durch diese zunehmende Verlagerung privater Treffen in den digitalen Raum wurden dann aber auch die Unzulänglichkeiten der etablierten Software-Lösungen schmerzhaft offensichtlich:
@@ -32,7 +48,7 @@ Die Anleitung für das Set-up findet sich [unserem GitHub-Repository](https://gi
 
 Wie können wir die informellen Dynamiken echter Treffen, beispielsweise in einer Bar, in einem Video Call abbilden? In unserem Ansatz entsteht das Raumgefühl durch Unterschiede in der Lautstärke verschiedener Teilnehmer:innen zueinander. Je näher die Nutzer:innen mit ihrem Videobild anderen Nutzer:innen kommen, desto lauter können sie sich gegenseitig hören. Zur Verdeutlichung dieses Prinzips ist die kreisförmige Video-Repräsentation der Nutzer:innen mit einem Umkreis versehen, der die maximale Hörweite anzeigt. Das Interaktionsparadigma ist die freien Positionierung der eigenen Video-Repräsentation im Raum durch Drag and Drop.
 
-<video src="/assets/images/project_images/chatmosphere/Chatmosphere_PrivateConversations.mp4" controls muted loop></video>
+<video src="/assets/images/project_images/chatmosphere/Chatmosphere_PrivateConversations_cut.mp4" autoplay controls muted loop></video>
 *Nutzer:innen können sich also frei im Raum bewegen, sich zu kleineren Konversationen zusammenfinden oder diese unkompliziert wechseln.*
 
 Es ist kein Herunterladen einer App oder eine Registrierung nötig. Eingeladene Nutzer:innen landen über einen Einladungslink direkt im Video-Call-Raum. Wir haben in unseren Tests gelernt, dass sich, in weniger digital affinen Gruppen, gerade diese direkte Teilnahmemöglichkeit bewährt hat. Solange die Person, die zum Call eingeladen hat schon im Raum anwesend ist, wird auch das Onboarding dynamisch: Die Bedienung kann gegenseitig erklärt werden, wenn beispielsweise Drag and Drop von ältere Teilnehmer:innen nicht durch ausprobieren exploriert werden konnte.
@@ -43,7 +59,7 @@ Der Ansatz „Fail fast, fail often“ hat sich von Anfang an ausgezahlt. Bereit
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Mischpult.png)
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Setup.png)
-*Oben: Das Schatten-Setup / Unten: Der User bedient eine augenscheinlich funktionierende Software*
+*Oben: Das Schatten-Setup / Unten: Ein Teilnehmer bedient eine augenscheinlich funktionierende Software*
 
 Bereits in diesem Setting erwiesen sich einige Teile der angedachten Interaktionsparadigmen besonders für unbedarfte User als problematisch.
 
@@ -53,7 +69,7 @@ Ein weiterer Test im Herbst 2020 hat uns auch vor Augen geführt, dass manche An
 
 
 ![](/assets/images/project_images/chatmosphere/Chatmosphere_LostUser.png)
-*Ein sich verloren fühlender User in der linken, oberen Ecke. Er kann niemanden hören und ihn hört auch niemand. Da er die Drag-and-Drop-Interaktion nicht von sich aus vermutet hat, findet er keinen Zugang zum Gespräch.*
+*Ein sich verloren fühlender Teilnehmer in der linken, oberen Ecke. Er kann niemanden hören und ihn hört auch niemand. Da er die Drag-and-Drop-Interaktion nicht von sich aus vermutet hat, findet er keinen Zugang zum Gespräch.*
 
 Großartig war es dagegen zu sehen, dass andere Grundannahmen von den Nutzern:innen nach dem Erlernen des Interaktionsparadigmas weiter bestätigt wurden. So erwähnten Teilnehmer:innen etwa das “angenehme Setting”, in dem man ungezwungen seine Fokus verlagern und interessengesteuert an Gesprächen partizipieren kann. Hier wurde besonders die “sich natürlich anfühlende Möglichkeit” herausgestellt, schnell in temporäre private Gespräche aus größeren Runden auszubrechen zu können. Das positive Feedback auf unsere generelle Projektidee und all die neuen Feature Ideen und Anwendungsszenarien die in den Tests entstanden sind haben zu einem großen Motivationsschub geführt.
 
@@ -111,17 +127,3 @@ Wir haben für uns eine [kleine Roadmap](https://www.notion.so/Interactive-visua
 ## Dankeschön 
 
 Großer Dank an das BMBF, das diese Förderung ermöglicht, und dem DLR, sowie Prototype-Fund-Team für die hilfreiche Unterstützung. Vielen Dank Yusuf und Emanuel, der andere Teil unseres Teams, und Dank an Christoph und Tillmann für die Ratschläge, Inspirationen und die ersten Contributions auf Github. Danke allen Mitgliedern von [Trink—Genosse](https://trink-genosse.de/), die an der Ideenfindung, dem Testen und der Nutzung dieses Projekts beteiligt waren sowie allen Test-Teilnehmer:innen <3
-
-# Einladung Live-Demo:
-
-Leider ist nichts langweiliger als sich allein in der Demo eines Video-Chats wiederzufinden. Daher laden wir am Dienstag, den 23.02., ab 19.00 zu einem informellen Treffen ein. Irgendwo zwischen Meet&Greet und Feierabendbier ist jede:r eingeladen Chatmosphere auszuprobieren:
-
-[https://demo.chatmosphere.cc/](https://demo.chatmosphere.cc/)
-
-Ihr seid sichtbar und könnt euch im Raum frei bewegen - eigentlich alles so wie damals, als wir uns noch in Kneipen treffen konnten. Es gilt also nach wie vor: [Be excellent to each other](https://github.com/Chatmosphere/chatmosphere-app/blob/master/docs/CODE_OF_CONDUCT.md).
-
-Wir bitten euch den Einladungslink an einem Laptop oder Computer in Chrome zu öffnen, da unser Prototyp noch nicht auf allen Browsern stabil läuft. Mobile Phones oder Touch Devices sind auch nicht geeignet (da würdet ihr eh auch kaum jemanden sehen).
-
-**Disclaimer**: Je nach Menge an Besucher:innnen kann es zu Bandbreitenproblemen kommen. Bisher hatten wir den Punkt noch nicht erreicht, aber das kann ja noch kommen.
-
-Wir freuen uns auf euch!
