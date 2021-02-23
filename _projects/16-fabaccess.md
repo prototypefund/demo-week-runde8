@@ -21,11 +21,11 @@ summary: ""
     <iframe src="https://www.youtube-nocookie.com/embed/CjBEGqvV_ms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-# Das Projekt
+## Das Projekt
 
 Wir entwickeln FabAccess, ein föderierbares Verwaltungssystem für FabLabs, Makerspaces und Hackerspaces. Mit FabAccess soll der Zugriff auf Maschinen verwaltet werden, um so Unfälle zu vermeiden.
 
-# Das Team
+## Das Team
 
 - Tasso: Product-Owner
 - Gregor: Mädchen für alles, Backend
@@ -33,7 +33,7 @@ Wir entwickeln FabAccess, ein föderierbares Verwaltungssystem für FabLabs, Mak
 - Joseph: Frontend, Design
 - Kai: Infrastruktur, Libraries
 
-# Das Problem
+## Das Problem
 
 Viele Hacker und Maker haben sich schon mit der Herausforderung befasst, ein eigenes FabLab nach den [Vorstellungen von Neil Gershenfeld](https://www.youtube.com/watch?v=aPbJmYCSCgA) aufzubauen und dieses mit wenig Personal "sicher" zu betreiben.
 Um das möglich zumachen, haben diese auch angefangen eine Verwaltungssoftware für ihre eigenen Spaces zu schreiben.
@@ -43,7 +43,7 @@ Aber das ist noch nicht alles, was FabAccess ausmacht. Aufgrund des sehr begrenz
 Wie können wir es unseren Nutzer:innen also ermöglichen, unkompliziert an andere Maschinen zu kommen, ohne unnötigen Mehraufwand bei kooperierenden Spaces zu erzeugen?
 Mit diesem Problem ergibt sich der zweite wichtige Aspekt von FabAccess: Es ist auch ein föderierbares Verwaltungssystem. Somit können sich Spaces aller Art zusammenschließen und die Nutzer:innen je nach Makerproblem den passenden Space besuchen. So wird die Kommunikation und Zusammenarbeit zwischen allen gestärkt. Aus Kommunikation entsteht bekanntlich Innovation.
 
-# Die Ausgangslage
+## Die Ausgangslage
 
 Da wir Kommunikation fördern wollen, haben wir zu Beginn des Projektes auch genau dort angefangen. Um möglichst allen Bedürfnissen und Wünschen, die aus vielen Perspektiven an ein solches Verwaltungssystem gestellt werden, gerecht zu werden, haben wir uns auf FabLab- und Makerkonferenzen umgehört und sind aktiv auf die verschiedensten Creator (Nutzer:innen eines Spaces) und Manager (Betreiber:innen) solcher Spaces zugegangen. Mit diesen haben wir uns in kleinen und mittleren Runden zusammengesetzt, um alle Ideen zusammenzuschreiben.
 
@@ -74,7 +74,7 @@ Hier haben wir eine Liste von bekannten Projekten ähnlicher Zielrichtung zusamm
 - [CoreDump, Rapperswil-Jona / Schweiz](https://github.com/coredump-ch/interna)
 - [open-taffeta](https://github.com/apiraino/)
 
-# Die Umsetzung
+## Die Umsetzung
 
 Da wir zu unseren Features und Plänen schon ein paar kleine Vorträge gehalten haben sowie vieles auf unserer Webseite niedergeschrieben ist, verlinken wir an dieser Stelle dorthin. Schaut es euch gerne an.
 
@@ -97,7 +97,7 @@ FabAccess besitzt drei Hauptfunktionalitäten:
 
 Das Prinzip von FabAccess ist es, Maschinen über den Stromanschluss ein- und auszuschalten. So sind Maschinen im Normalfall stromlos und damit ungefährlich. Erst wenn Nutzer:innen an der Maschine sind, die für die sichere Bedienung befähigt und eingewiesen sind, wird die Maschine mit dem Stromnetz verbunden.
 
-## Tooling
+### Tooling
 
 Jedes Team braucht ein sinnvolles Tooling, die Frage ist nur, was heißt "sinnvoll"?
 Der Ansatz für unser Tooling basiert, wie bei den meisten Projekten, auf den vorhandenen Fähigkeiten der Entwickler:innen.
@@ -108,26 +108,26 @@ Unsere Wahl ist aufgrund der kurzen Förderphase auf C# mit Xamarin gefallen, da
 
 Für eine funktionierende und langfristige Föderation benötigten wir eine stabile API, über die die einzelnen Instanzen und Clients mit unserem Server(BFFH - Diflouroborane) kommunizieren können. Auch eine Abwärtskompatibilität ist sinnvoll, wenn BFFH von einzelnen Spaces auf deren Bedürfnisse angepasst werden können soll. Dabei sollte unser Referenzclient (Borepin) nicht funktionsunfähig werden. Um all dies möglich zu machen, ist unsere API in Cap'n Proto geschrieben.
 
-![](https://i.imgur.com/5ovELvG.png)
+![Struktur von FabAccess, mit Schnittstellenaufteilung](https://i.imgur.com/5ovELvG.png)
 
 > Struktur von FabAccess, mit Schnittstellenaufteilung
 
-## Erweiterungen
+### Erweiterungen
 
 Dieses Thema war bei Gesprächen mit den anderen Spaces immer vorne mit dabei, da keiner der Spaces seine selbst gebaute Hardware neu bauen will oder teuer eingekaufte Systeme verlieren möchte. Um das möglich zu machen, haben wir eine API geplant, die generisch genug ist, um verschiedenste Systeme anzubinden.
 Damit nicht jeder Space seine Hardware selbst basteln muss und damit zum Entwickeln eigener Software gezwungen wird, entwickeln wir von unserer Seite aus passende Referenzhardware, um den Einstieg zu erleichtern.
 Um die kommerziellen Produkte nicht außer acht zu lassen, arbeiten wir an der Einbindung der gängigsten Geräte, wie Shelly Plugs oder Systemen mit Tasmota und anderen. Somit kann sich ein Space beim Verwenden unseres Systems entweder unserer Bastelaufgabe stellen oder einen schnellen Einstieg durch gekaufte Produkte hinlegen.
 
-## Hardware
+### Hardware
 
 Hardware zur Anbindung an die Geräte wurde uns unter anderem von einem sehr engagierten Unterstützer zur Verfügung gestellt.
 Vielen Dank an dieser Stelle an Joris, der für uns den ersten Prototypen eines SmartCard-Readers entwickelt hat, der sich schon wunderbar an unsere Schnittstellen anbindet.
 
-![](https://i.imgur.com/DMiYB24.jpg)
+![Drehbank mit ursprünglichem Schaltungsprototypen](https://i.imgur.com/DMiYB24.jpg)
 
 > Drehbank mit ursprünglichem Schaltungsprototypen
 
-## Föderation
+### Föderation
 
 Nachdem wir die ganze Zeit von Föderation reden und schreiben, wollen wir auch die Frage klären, was Föderation für uns ist.
 Wir haben unseren Ansatz wie folgt definiert:
@@ -150,37 +150,37 @@ Das System soll dabei granuliert und anwendungsorientiert Entscheidungen weiterg
 
 Außerdem wollen wir, dass unter den einzelnen Instanzen gemeinsame Entscheidungen mit Föderation getroffen werden können, ohne dass die einzelnen Parteien ihre Rechte verlieren.
 
-## SmartCards
+### SmartCards
 
 Um Maschinen sicher mit einer SmartCard aktivieren zu können und nicht nur über ein Handy oder einen PC, setzten wir auf NXP MIFARE DESFire Karten.
 Die Anforderungen an ein föderierbar einsetzbares SmartCard-System sind hoch, da so die jeweils andere Partei keine einfache Validierung der Karte durchführen kann. Auch das Authentifizieren mit einem Schlüssel gestaltet sich über Föderationen hinweg schwierig, da der Reader dem einen Space gehört und die Karte dem anderen. Ein Reader hat daher nicht immer die Schlüssel für die gelesenen Karten.
 Die DESFire-Karte besitzt ein Feature, mit dem eine Karte via OTA-Verfahren (Over-the-Air) direkt mit einem entfernten Server kommunizieren kann, ohne dass der Reader Schlüssel für die Karte benötigt. Der Reader übernimmt dabei nur die Rolle eines Proxys (Brücke/Vermittler). Mit diesem Ansatz stellen wir ein sicher föderierbares Kartensystem, was wir so bisher noch nicht im OpenSource-Bereich finden konnten.
 
-# Die Herausforderungen
+## Die Herausforderungen
 
 Auch wir standen während der Umsetzung vor einigen Herausforderungen, die Schwierigsten haben wir mal niedergeschrieben.
 
-## Aller Anfang ist schwer
+### Aller Anfang ist schwer
 
 Da unser Projekt viele Aspekte und eine hohe Komplexität besitzt, war das Auswählen schwierig. Wir konnten nicht direkt einzelne Features separat bauen, da der Core erst implementiert werden musste, bevor wir mit solchen Funktionalitäten beginnen konnten.
 Auf der Core-Seite begannen wir mit dem Aufbau eines Event-Netzwerks und der Anbindung von einem MQTT Server sowie dem Aufbau der Datenbankstrukturen.
 Auf der Client-Seite war die Auswahl für unabhängige Aufgaben begrenzt, da die Funktionalität im Core und über die Cap'n Proto API abgebildet wird. Daher stürzten wir uns auf die Implementierung von dem SmartCard Proof-of-Concept und der Anbindung der Cap'n Proto API.
 
-## UX und NFC
+### UX und NFC
 
 In unserem ersten Coaching mit Simply Secure stellten wir unseren ersten Designentwurf für Borepin vor. Bei diesem Gespräch wurde angesprochen, dass wir ein Wiedererkennungsmerkmal für eine NFC-Interaktion kreieren sollten, um so Nutzer:innen eine einfache Erkennung von NFC-Tags oder Karten bereitzustellen. Daraufhin ist unser Design für eine NFC-Markierung entstanden.
 
-![](https://i.imgur.com/IcxxwjR.jpg)
+![SmartCard und Maschinensticker im FabAccess NFC Design](https://i.imgur.com/IcxxwjR.jpg)
 
 > SmartCard und Maschinensticker im FabAccess NFC Design
 
-## Föderation und Netzwerke
+### Föderation und Netzwerke
 
 Bei der Föderationsplanung und -entwicklung hatten wir ein paar ungeklärte Fragen zu beantworten.
 Da unser langfristiges Ziel ist, über eine Föderation auch eine Abrechnung zu ermöglichen, sollten die Föderationsabläufe sicher und nachvollziehbar für beide Parteien sein.
 Da Föderation für beide Seiten einen erkennbaren Vorteil mit sich bringen muss, ist unsere Planung bisher nur eine direkte Föderation zu erlauben. Somit föderieren nur Spaces miteinander, deren Manager sich kennen und zusammenarbeiten wollen. Es ist keine Netzwerkbildung möglich, bei der ein Zusammenschluss von Spaces entsteht, bei dem ein neuer Space direkt Zugriff auf alle Spaces erhält, ohne diese selbstständig und gegenseitig zu akzeptieren.
 
-## Community
+### Community
 
 Bei Thema Community und Unterstützer:innen netzwerken wir nun schon seit über zwei Jahren für diese Projektidee und haben uns auch in Laufe der Förderung um eine Veröffentlichung unserer Fortschritte bemüht.
 
@@ -192,7 +192,7 @@ Da es nun schon fast Tradition ist, auf dem Chaos Communication Congress eine kl
 Durch diesen Talk konnten wir unserem Projekt zu mehr Öffentlichkeit verhelfen. Auch die Make hat uns darauf hin in einem ihrer [Online-Artikel](https://www.heise.de/news/FabAccess-Bessere-Maschinenverwaltung-fuer-Fablabs-5027184.html) erwähnt sowie ein Beitrag in der aktuellen Ausgabe veröffentlicht.
 Dieses mediale Interesse sowie die Rückmeldungen haben uns gezeigt, dass wir auf einem guten Weg sind und unser Projekt etwas verändern könnte.
 
-# Der Stand
+## Der Stand
 
 Wie leider so oft in durchgeplanten Projekten haben wir **nicht alle** Ziele schon am Ende des Förderzeitraums erreicht.
 
@@ -211,7 +211,7 @@ Für die Föderierbarkeit müssen noch ein paar Umsetzungsentscheidungen getroff
 
 Wie ihr seht, haben wir noch einiges zu tun.
 
-# Die Zukunft
+## Die Zukunft
 
 Die gute Nachricht ist: **Wir machen weiter**.
 
@@ -220,7 +220,7 @@ Wir arbeiten an einer Strategie zur weiteren Förderung unseres Föderationskonz
 Auch wollen wir in einem Machbarkeitstest unseren Core (BFFH) erweitern und so testen, ob wir auch andere Anwendungen wie z. B. ein Netzwerk aus Lastenfahrradverleihen mit unserem System unterstützen können.
 Unser offener und generischer Ansatz scheint sich auszuzahlen.
 
-![](https://i.imgur.com/2nX7EV1.png)
+![Föderationsablaufbeispiel von FabAccess/DEMOKrAtIS](https://i.imgur.com/2nX7EV1.png)
 
 > Föderationsablaufbeispiel von FabAccess/DEMOKrAtIS
 > _DEMOKrAtIS ist der Projektname des Machbarkeitsprojektes_
@@ -235,9 +235,9 @@ Wie ihr sehen könnt, haben wir noch einige Ideen und Visionen, an denen wir arb
 
 Für alle, die noch schöne Ideen für unser Projekt haben oder uns bei der Umsetzung (auch bei unseren anderen Fab... Projekten) helfen wollen, können wir nur sagen, kommt auf unser [Zulip](https://fabaccess.zulipchat.com/), **wir machen was Schönes draus**.
 
-# Ein kleines Fazit
+## Ein kleines Fazit
 
-## Zum Projekt
+### Zum Projekt
 
 Wir setzten mit diesem Projekt unseren Wunsch nach einer zusammenarbeitenden Open-Source-Gesellschaft um.
 
@@ -245,7 +245,7 @@ Wir haben mehr Zeit in einige Aufgaben gesteckt, als wir erwartet und geplant ha
 
 Wir müssen aber auch zugeben, dass wir an unserem Teammanagment arbeiten müssen: Die nicht vollsynchrone Arbeitsweise mit nur wenigen persönlichen Treffen in der Gruppe bringt einige Schwierigkeiten mit sich und kann schnell zu Spannungen führen.
 
-## Zur Prototype-Fund-Förderung
+### Zur Prototype-Fund-Förderung
 
 Die Förderung durch den Prototype Fund hat unserem Projekt einen riesigen Sprung nach vorne ermöglicht.
 Ohne die Möglichkeit, viel Zeit in Planung und Entwicklung stecken zu können und dabei trotzdem unseren diversen finanziellen Verpflichtungen nachkommen zu können, wären wir nie in dem halben Jahr auf das Level gekommen, auf dem wir jetzt sind.

@@ -5,8 +5,8 @@ image: /assets/images/project_images/streetcomplete/header.jpg
 authors:
   - author: Tobias Zwick
     link:
-brief: "Wir vereinfachen die Zusammenarbeit für Akteur*innen in der Seenotrettung."
-summary: "CivilMRCC hat eine App entwickelt, mit deren Hilfe die Arbeit ziviler Seenotrettungsorganisationen auf dem Mittelmeer erleichtert werden soll."
+brief: "Wir vervollständigen die OpenStreetMap mithilfe von Gamifizierung."
+summary: ""
 ---
 
 <div class="iframe-container">
@@ -19,7 +19,7 @@ Es ist kein Vorwissen notwendig. StreetComplete bietet also den perfekten Einsti
 
 Alles Weitere zur Open-Source-App StreetComplete gibt es auf [https://github.com/streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete)
 
-![](/assets/images/project_images/streetcomplete/featureGraphic.png)
+![Features](/assets/images/project_images/streetcomplete/featureGraphic.png)
 
 ## Probiere sie aus!
 
