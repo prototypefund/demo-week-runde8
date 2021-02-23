@@ -33,7 +33,7 @@ Der technische Kern auf Open Source Basis soll in der App die Möglichkeit schaf
 
 Im Rahmen des Prototype Funds wurde das Konzept mit dem Fokus auf Darmkrebs umgesetzt und das Ergebnis ist:
 
-![](/assets/images/project_images/dicama/Folie1.PNG)
+![MONK](/assets/images/project_images/dicama/Folie1.PNG)
 MONK – Dein Krebsmanager einfach und sicher
 
 ## Das Konzept
@@ -56,15 +56,15 @@ Vertrauen bedeutet für uns, dass Daten nicht nur sicher sind, sondern auch der 
 
 Beim ersten Start der App wird die Patient:in durch ein Onboarding geführt, das mit so wenig wie möglich Informationen versucht eine bestmögliche Auswahl an Modulen vorzuschlagen. Wir erfragen im Sinne der Datensparsamkeit keine Informationen, die wir nicht aus technischen oder medizinischen Aspekten benötigen. Gleichzeitig wird die/der Patient:in auch informiert über die Besonderheiten der App, sowie den Kerngedanken: sensible Daten verschlüsselt auf dem eigenen Telefon abzulegen.
 
-![](/assets/images/project_images/dicama/Folie2.PNG)
+![Onboarding](/assets/images/project_images/dicama/Folie2.PNG)
 
 Nach dem Onboarding steht de/de Patient:in die ausgewählte Funktionalität zur Verfügung und man erhält im Rahmen eines individuellen Dashboards eine - zunächst leere - übersichtliche Ansicht der Module. Neben dem Dashboard als Grid-Symbol und einer zentralen Übersicht für Benachrichtigungen als Glocken-Symbol gibt es in dem oberen Menü auch stets die Möglichkeit, sich mittels dem Schild-Symbols direkt über den Datenschutz zu informieren. Ein:e Patient:in muss sich also nicht zu einem versteckten Untermenü klicken, um den Datenschutz nachzuvollziehen, sondern kann sich über einen fixen und stets präsenten Menüpunkt über den Umgang mit den persönlichen Daten informieren. Welche Daten werden erfasst? Welchem Zweck dient dies? Welches Modul greift auf welche Daten zurück? Mit dieser klaren Verankerung des Datenschutzes wollen Transparenz und Verständnis für den Umgang mit Daten schaffen. Dies wird vor allem wichtig, wenn in Zukunft immer weitere Module entwickelt und eingebunden werden.
 
-![](/assets/images/project_images/dicama/Folie3.PNG)
+![Interaktionen dashboard](/assets/images/project_images/dicama/Folie3.PNG)
 
 Im Dashboard hat man schnell und unmittelbar die Möglichkeit über die jeweiligen „+“ Symbole in den einzelnen Modulen jeweilige Kerninteraktion auszuführen. So kann beispielsweise ein neues Dokument hochgeladen oder ein Symptom erfasst werden. Das Ziel ist es, so leicht wie möglich und mit so wenigen Klicks wie nötig eine Aufgabe im Alltag zu erledigen. Befindet man sich in einem Modul selbst, verlagert sich diese Möglichkeit der Kerninteraktion in den sogenannten »Floating Action Button« unten rechts.
 
-![](/assets/images/project_images/dicama/Folie4.PNG)
+![Datenschutz](/assets/images/project_images/dicama/Folie4.PNG)
 
 In den Modulen selbst gibt es ein zusätzliches und spezifisches unteres Menü. Dort gibt es drei wiederkehrende Elemente und ein flexibles Element. Das flexible Element stellt für die Entwickler:innen eines Moduls die Möglichkeit dar, eine weitere wichtige Interaktion prominent zu positionieren, z. B. eine Übersicht der favorisierten Dokumente im Dokumentenmanager oder die Erstellung eines Reports über Symptome. Die wiederkehrenden Elemente sind zum einen der Home-Button für das jeweilige Modul, um jederzeit von untergeordneten Ebenen auf die oberste Eben des Moduls zurückgelangen. Des Weiteren ist das ein Info-Button, der dazu dient, den Patient:innen Informationen über den aktuellen Screen zu geben. Diese Funktion soll die Patient:innen nicht nur unterstützen sich in neuen Modulen schneller und besser zurechtzufinden, sondern auch in schlechten kognitiven Zustand sich stets über die aktuellen Handlungen rückversichern zu können. Abschließend und falls erforderlich bzw. gewünscht können Entwickler:innen unter dem Menüpunkt „…“-Mehr weitere Interaktionsmöglichkeiten und Informationsfelder unterbringen.
 
@@ -74,15 +74,15 @@ In den Modulen selbst gibt es ein zusätzliches und spezifisches unteres Menü. 
 
 Zu Beginn der Recherche haben wir mit einer Umfrage in einer aktiven Patient:innen-Community ermittelt, welche Module relevant für ein gutes Krebsmanagement sind. Das Ergebnis diente als Orientierung welche Basismodule priorisiert werden sollten. Es zeigte sich, dass egal an welcher Form von Krebs ein:e Patient:in erkrankt ist, alle zum einen Medikamente und zum anderen Dokumente verwalten müssen. Als spezifisches Modul für den Fokus Darmkrebs ergab sich ein Stuhlgangstagebuch. Alle drei Module werden im folgenden kurz vorgestellt:
 
-![](/assets/images/project_images/dicama/Folie5.PNG)
+![Stuhlgangstagebuch](/assets/images/project_images/dicama/Folie5.PNG)
 
 Das Tracking von Symptomen bedeutet bei Darmkrebs vor allem, den Stuhlgang entsprechend zu protokollieren. Dabei ermöglicht das Modul den Patient:innen neben der Erfassung von typischen Stuhlgangscharakteristika auch Assoziationen in Form von Tags mit einzelnen Eingaben zu verknüpfen. Sei es eine bestimmte unverträgliche Mahlzeit oder der Wechsel auf ein neues Schmerzmittel - der/die Patient:in kann so modulübergreifend Informationen miteinander verknüpfen und eventuell Rückschlüsse erhalten oder Impulse in das nächste Gespräch mit dem/der Ärzt:in einbringen. Für diesen Zweck gibt es die Möglichkeit, sich über die Reportfunktion eine Übersicht als PDF erstellen zu lassen, die man entsprechend ausdrucken oder mit dem/der Ärzt:in teilen kann.
 
-![](/assets/images/project_images/dicama/Folie6.PNG)
+![Medikamentenplan](/assets/images/project_images/dicama/Folie6.PNG)
 
 Eine Krebserkrankung hat die Einnahme von etlichen und unterschiedlichsten Medikamenten zur Folge. Hierbei den Überblick zu behalten - sowohl in der Einnahme selbst als auch beispielsweise in der Bevorratung - ist eine elementare Aufgabe im Alltag von Krebspatient:innen. Für eine:n Patient:in kann es beispielsweise dramatische Konsequenzen haben, wenn Schmerzmittel plötzlich am Wochenende oder im Urlaub leer gehen. Auch hier lässt sich über die Reportfunktion eine Übersicht erstellen, die beispielsweise die vorgeschriebene Einnahme dokumentiert. Des Weiteren ist die Information über die aktuelle Einstellung der Medikation auch für Ärzt:innen und Pfleger:innen von großer Bedeutung, so dass auch hier mit wenigen Klicks der verordnete Plan als Foto-Scan erfassen, sich anzeigen und teilen lässt. An dieser Stelle kann beim Anzeigen, Bearbeiten oder Hinzufügen eines Medikamentenplan exemplarisch der fließende Übergang in die Dokumenten-Verwaltung als ein weiteres Basismodul veranschaulicht werden.
 
-![](/assets/images/project_images/dicama/Folie7.PNG)
+![Dokumentenverwaltung](/assets/images/project_images/dicama/Folie7.PNG)
 
 Ein:e Krebspatient:in hat nicht nur viele Medikamente zu nehmen, sondern auch Berge von Papier zu bewältigen. Von Arztbriefen, Medikamentenplänen, Blutwerten, Gutachten bis hin zu Rechnungen sammeln sich schnell mehrere Ordner an Papier. Diese zu digitalisieren ist aufgrund von guten Smartphone-Kameras und Scannern zwar keine große Herausforderung mehr, aber wenige Scan-Apps ermöglichen eine getrennte und sichere Ablage sowie eine dedizierte Suche. Mit dem Modul der Dokumentenverwaltung ist es leicht möglich mit wenigen Klicks ein Dokument zu digitalisieren und dabei nach einer vorgegebenen oder selbstgewählten Systematik abzulegen. Neben der Möglichkeit Dokumente spezifisch zu benennen und abzulegen, gibt es auch hier die Möglichkeit spezifische Assoziationen und Schlüsselbegriffe als Tag mit Dokumenten zu verknüpfen. Dadurch erhält der/die Patient:in die Möglichkeit einer schnellen Suche nach den jeweiligen Dokumenten.
 
@@ -90,7 +90,7 @@ Ein:e Krebspatient:in hat nicht nur viele Medikamente zu nehmen, sondern auch Be
 
 ## Technische Konzepte
 
-![](/assets/images/project_images/dicama/Folie8.PNG)
+![System Architecture](/assets/images/project_images/dicama/Folie8.PNG)
 
 Die Systemarchitektur hat das Ziel Modularität und Offenheit für Entwicklungen zu bieten, gleichzeitig aber auch Datenhoheit und Qualitätssicherung zu gewährleisten.
 
@@ -102,7 +102,7 @@ Entwickler:innen sollen es leicht haben neue Ideen umzusetzen oder konkrete Prob
 
 ## Technische Spezifikationen
 
-![](/assets/images/project_images/dicama/archdiagram.PNG)
+![Technische Spezifikationen](/assets/images/project_images/dicama/archdiagram.PNG)
 
 ## Zielgruppe
 

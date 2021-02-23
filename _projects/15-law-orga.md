@@ -48,13 +48,13 @@ Die Statistik-Komponente ermöglicht den einzelnen Vereinen statistische Informa
 
 Hierbei konnten wir unter anderem Daten über die Verteilung der Themenschwerpunkte, eine übersichtliche Darstellung des Status aller Akten und einen zeitlichen Verlauf der Akten hinzufügen.
 
-![](/assets/images/project_images/law-orga/screenshot1.png)
+![Die Statistik-Komponente](/assets/images/project_images/law-orga/screenshot1.png)
 
 Außerdem haben wir dadurch den Grundstock für weitere Informationsangaben gelegt, welche nun mit sehr wenig zusätzlichem Aufwand hinzugefügt werden können.
 
 Direkt zu Anfang konnten wir außerdem eine Cloud-Umgebung mit [Prometheus](https://prometheus.io/) und [Grafana](https://grafana.com/) erstellen. Hiermit erhalten wir genauere Informationen über das laufende System selbst und können auftretenden Probleme ggf. vorhersehen.
 
-![](/assets/images/project_images/law-orga/screenshot2.png)
+![Informationen über das laufende System](/assets/images/project_images/law-orga/screenshot2.png)
 
 ### Fazit
 

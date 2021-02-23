@@ -9,7 +9,7 @@ brief: "Ein Projekt zur Optimierung des Wohnraums durch Aggregation und Erforsch
 summary: "Die Residential Reporter App wird den Bürger:innen die Möglichkeit geben, mehr auf die Stadtentwicklung Einfluss zu nehmen und sich besser konstruktiv zu beteiligen."
 ---
 
-## Die Residential Reporter App
+# Die Residential Reporter App
 
 Ein Projekt zur Optimierung des Wohnraums durch Aggregation und Erforschung von offenen Daten.
 

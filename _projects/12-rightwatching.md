@@ -67,13 +67,13 @@ Für das Projekt haben wir 22 Chronologien rechter Gewalt erfasst, die wir für 
 
 Diese Grafik zeigt den Zeitraum der Chroniken, gruppiert nach Dachverband oder Zugehörigkeit. Ersichtlicht wird, dass Chroniken der Beratungsstellen unter dem VBRG seit dem Jahr 2000 existieren, allerdings gibt es auch einige wenige die bereits seit den 90ern mitschreiben.
 
-![](/assets/images/project_images/rightwatching/body.png)
+![Zeitraum der Chroniken, gruppiert nach Dachverband oder Zugehörigkeit](/assets/images/project_images/rightwatching/body.png)
 
 ### Wo wird hingeschaut?
 
 Die meisten Organisationen decken nach eignenen Angaben ganze Bundesländer ab. Die 22 Chroniken sind ungleich verteilt in Deutschland. Auffällig ist die hohe Anzahl an Watchdogs rechter Gewalt in Mitteldeutschland.
 
-![](/assets/images/project_images/rightwatching/coverage_map.png)
+![Zeit und Ort der Chroniken](/assets/images/project_images/rightwatching/coverage_map.png)
 
 Diese kurze Studie allein zu Zeit und Ort der Chroniken zeigt: Es gibt genügend Zeiträume und Orte an denen rechte Gewalt nicht oder unsystematisch erfasst wird. An dieser Stelle setzt Rightwatching an.
 

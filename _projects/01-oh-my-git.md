@@ -27,7 +27,7 @@ Git hat allerdings den notorischen Ruf, eine steile Lernkurve zu haben. Es beinh
 
 Das Spiel ist im Wesentlichen **fertig und benutzbar**, und steht auf [ohmygit.org](https://ohmygit.org) für Linux, macOS und Windows zum Download bereit:
 
-<br>
+<br />
 <a href="https://ohmygit.org" class="btn project-btn" target="_blank">Zum Download!</a>
 
 ## Features
@@ -56,13 +56,13 @@ Wir haben das Spiel iterativ entwickelt, und über die Projektlaufzeit insgesamt
 
 ### Prototyp 0
 
-![](/assets/images/project_images/oh-my-git/prototype-0.png)
+![eine allererste technische Machbarkeitsstudie](/assets/images/project_images/oh-my-git/prototype-0.png)
 
 Dies war eine allererste **technische Machbarkeitsstudie**, die wir vor der Bewerbung entwickelten. Der Fokus lag auf der Visualisierungs-Komponente, es gab schon ein erstes Terminal, aber keinerlei Inhalte.
 
 ### Prototyp 1
 
-![](/assets/images/project_images/oh-my-git/prototype-1.png)
+![Prototyp 1: ein einfaches Levelformat](/assets/images/project_images/oh-my-git/prototype-1.png)
 
 Wir entwickelten ein einfaches **Levelformat**, mit Beschreibungen und Zielen, wählten eine hübsche Schriftart aus, und gaben den UI-Elementen ein einheitliches Theme. Außerdem gab es hier schon einen ersten einfachen **Dateibrowser**. Eine erste Levelsequenz erklärte die Funktionsweise von Git, angefangen bei den Internals - was recht ungewöhnliche Befehle erforderte, die im Alltag kaum zur Anwendung kommen.
 
@@ -70,7 +70,7 @@ Wir luden zwei erfahrene Git-Benutzer zum ersten Playtest ein. Beide hatten in d
 
 ### Prototyp 2
 
-![](/assets/images/project_images/oh-my-git/prototype-2.png)
+![Prototyp 2: eine High-Level-Einführung](/assets/images/project_images/oh-my-git/prototype-2.png)
 
 Wir schrieben eine Levelsequenz, die eine **High-Level-Einführung** in Git darstelle. Wir versuchten hier bereits, ganz am Anfang zu motivieren, weshalb Git überhaupt nützlich ist, mit einer kleinen Geschichte über Aufsätze, die man schreiben sollte. Ohne Git musste man dort unzählige Kopien des Essays anlegen, die dann teilweise wieder versehentlich gelöscht wurden - und dann wurde gezeigt, wie Git dabei helfen kenn.
 
@@ -80,7 +80,7 @@ In diesen Zeitraum fiel auch unserer erstes **Coaching**. Wir sprachen darin vie
 
 ### Prototyp 3
 
-![](/assets/images/project_images/oh-my-git/prototype-3.png)
+![Prototyp 3: Interface mit Spielkarten](/assets/images/project_images/oh-my-git/prototype-3.png)
 
 Das Interface, das uns am reizvollsten erschien, waren **Spielkarten**! Die verschiedenen Befehle auf eigenen Karten zu haben, mit Icons und Beschreibungen, fühlte sich sehr gut an - so hatten die Befehle quasi eine eingebaute Dokumentation!
 
@@ -92,7 +92,7 @@ Unsere playtests hierzu waren sehr motivierend, beides schien gut anzukommen! Te
 
 ### Eine Sackgasse: "2D-Welt"
 
-![](/assets/images/project_images/oh-my-git/prototype-2d.png)
+![Objekte in einer 2D-Welt](/assets/images/project_images/oh-my-git/prototype-2d.png)
 
 Hier verfolgten wir für eine Weile die Idee, die Dateien als richtige **Objekte in einer 2D-Welt** zu haben. Reizvoll daran war, dass drei Stufen von Dateiinhalten - Datei im working directory, Datei im Index, und Datei im aktuellen commit - sehr gut grafisch darstellbar waren, nämlich als weiße Datei, als blaue "Aura", und als grauer Schatten. Für uns selbst war diese Form der Darstellung sehr augenöffnend, um beispielsweise zu verstehen, dass `git reset` sehr wörtlich das Gegenteil von `git add` ist.
 
@@ -102,7 +102,7 @@ Nach einigen Wochen verwarfen wir die Änderungen in diesem branch komplett.
 
 ### Prototyp 4
 
-![](/assets/images/project_images/oh-my-git/prototype-4.png)
+![Prototyp 4](/assets/images/project_images/oh-my-git/prototype-4.png)
 
 Hier begann dann eine Phase des Feinschliffs. Auf das Feedback einer sehbehinderten Person hin machten wir hier alle **Texte größer**. Wir veränderten das **Bildschirm-Layout**, fügten eine **Levelübersicht** hinzu, sowie eine klarere **Aufschlüsselung der Ziele** als rote und grüne Boxen unter der Levelbeschreibung.
 
@@ -112,7 +112,7 @@ Auch die Playtests für diese Version bestätigten uns, dass wir auf einem guten
 
 ### Prototyp 5
 
-![](/assets/images/project_images/oh-my-git/prototype-5.png)
+![Prototyp 5](/assets/images/project_images/oh-my-git/prototype-5.png)
 
 Um die Kommandozeilen-Benutzung mehr zu motivieren bauten wir golden glitzernde **"Terminal-Abzeichen"** ins Spiel ein, die man bekommt, wenn man ein Level ohne die Spielkarten löst.
 

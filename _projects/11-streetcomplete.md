@@ -19,7 +19,7 @@ Es ist kein Vorwissen notwendig. StreetComplete bietet also den perfekten Einsti
 
 Alles Weitere zur Open-Source-App StreetComplete gibt es auf [https://github.com/streetcomplete/StreetComplete](https://github.com/streetcomplete/StreetComplete)
 
-![](/assets/images/project_images/streetcomplete/featureGraphic.png)
+![Features](/assets/images/project_images/streetcomplete/featureGraphic.png)
 
 ## Probiere sie aus!
 

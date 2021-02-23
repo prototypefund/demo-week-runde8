@@ -41,8 +41,8 @@ Es ist kein Herunterladen einer App oder eine Registrierung nötig. Eingeladene 
 
 Der Ansatz „Fail fast, fail often“ hat sich von Anfang an ausgezahlt. Bereits vier Tage nach Projektstart begannen wir eine kleine Nutzer:innenstudie. Für die Teilnehmenden präsentierte sich eine recht ansehnliche, vermeintlich fertige Software bei der in Wahrheit alle Funktionen von uns im Hintergrund gesteuert wurden.
 
-![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Mischpult.png)
-![](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Setup.png)
+![Mischpult beim user-test](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Mischpult.png)
+![Setup des User-Tests](/assets/images/project_images/chatmosphere/Chatmosphere_UserTest_Setup.png)
 *Oben: Das Schatten-Setup / Unten: Der User bedient eine augenscheinlich funktionierende Software*
 
 Bereits in diesem Setting erwiesen sich einige Teile der angedachten Interaktionsparadigmen besonders für unbedarfte User als problematisch.
@@ -52,12 +52,12 @@ Neben [kleiner Korrekturen initialer Annahmen](https://chatmosphere.cc/user-test
 Ein weiterer Test im Herbst 2020 hat uns auch vor Augen geführt, dass manche Annahmen eben nur Annahmen sind, die getestet werden müssen. Zum Beispiel wie “intuitiv” ein Interaktionspattern wie Drag and Drop wirklich ist, und welche Vorstellungen Nutzer:innen wohl haben, wenn sie andere Gesprächsteilnehmer:innen zwar sehen, aber nicht hören können. Zusammen mit den technischen Problemen, die viele der Test-User bei Video-Calls schon erlebt hatten, wurde manchmal lieber der Rechner neu gestartet, als der Versuch gewagt, sein eigenes Video per Drag and Drop auf dem Canvas zu bewegen.
 
 
-![](/assets/images/project_images/chatmosphere/Chatmosphere_LostUser.png)
+![Lost User](/assets/images/project_images/chatmosphere/Chatmosphere_LostUser.png)
 *Ein sich verloren fühlender User in der linken, oberen Ecke. Er kann niemanden hören und ihn hört auch niemand. Da er die Drag-and-Drop-Interaktion nicht von sich aus vermutet hat, findet er keinen Zugang zum Gespräch.*
 
 Großartig war es dagegen zu sehen, dass andere Grundannahmen von den Nutzern:innen nach dem Erlernen des Interaktionsparadigmas weiter bestätigt wurden. So erwähnten Teilnehmer:innen etwa das “angenehme Setting”, in dem man ungezwungen seine Fokus verlagern und interessengesteuert an Gesprächen partizipieren kann. Hier wurde besonders die “sich natürlich anfühlende Möglichkeit” herausgestellt, schnell in temporäre private Gespräche aus größeren Runden auszubrechen zu können. Das positive Feedback auf unsere generelle Projektidee und all die neuen Feature Ideen und Anwendungsszenarien die in den Tests entstanden sind haben zu einem großen Motivationsschub geführt.
 
-![](/assets/images/project_images/chatmosphere/Chatmosphere_SplitConversations.png)
+![Split Conversations](/assets/images/project_images/chatmosphere/Chatmosphere_SplitConversations.png)
 *Verschiedene, gleichzeitig laufende Gespräche zu verschiedenen Themen im selben Raum.*
 
 ## Die Ernüchterung des Nicht-Tuns
@@ -70,7 +70,7 @@ Doch wie lange mit neuen Ideen experimentieren und wann fängt man an eine der I
 
 Wie können andere (bei uns vor allem Designer:innen) im Sinne von Open Source möglichst einfach und selbstständig partizipieren? Contributions für und von nicht-Coder:innen sind super wertvoll, scheitern aber leider noch immer recht oft an hohen technische Hürden. Gezeigt hat sich das bei uns vor allem entlang der Logik von Styled-Components und Typescript.
 
-![](/assets/images/project_images/chatmosphere/Chatmosphere_Code.png)
+![Chatmosphere Code](/assets/images/project_images/chatmosphere/Chatmosphere_Code.png)
 *CSS mit Themes in Styled Components*
 
 Beides ist prinzipiell enorm hilfreich, erzeugt aber eine weitere Abstraktion und damit Hürde für Partizipierende. So sollten die Styled Components vor allem die gemeinsame Arbeit am CSS reaktiver UI-Elementen mit Designer:innen erleichtern. Diese Hoffnung wurde in unserem Kontext leider nicht eingelöst, da die Implementierung der Styles (vor allem, wenn Theming verwendet wird) doch mehr Verständnis von Modulen, Build-Prozessen und Variablen voraussetzt, als initial erwartet. Da wir Zugänglichkeit und Partizipation für Hilfswillige aller Couleur ermöglichen wollen, würden wir in Zukunft, trotz der Vorteile durch Modularität zugunsten von Zugänglichkeit durch einfache Styles entscheiden.

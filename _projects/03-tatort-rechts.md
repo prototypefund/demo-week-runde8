@@ -29,7 +29,7 @@ Coding-Nerd trifft auf Story-Junkie. Das sind wir, [Johannes Filter](https://twi
 
 Johannes ist der Softwareentwickler in diesem Projekt, hat die Seite gebaut, die öffentlichen Daten gescrapt und gemappt und sich mit dem Webdesign rumgeschlagen. Anna ist Journalistin, hat an der inhaltlichen Ausrichtung der Seite gearbeitet, war die kritische Testerin der Karte und hat die Artikel geschrieben. [Klick hier](https://tatortrechts.de/blog/team), wenn du noch mehr über uns wissen willst.
 
-![](/assets/images/project_images/tatort-rechts/map.png)
+![Karte](/assets/images/project_images/tatort-rechts/map.png)
 
 ### So sind wir auf das Projekt gekommen
 

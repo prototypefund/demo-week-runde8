@@ -11,45 +11,45 @@ brief: "Wir arbeiten mit RiseupVPN und OONI, um Internetzensur zu erkennen und N
 summary: ""
 ---
 
-# **Internetzensur mit RiseupVPN und OONI umgehen**
+# Internetzensur mit RiseupVPN und OONI umgehen
 
 Freier Zugang zu Informationen ist ein wichtiger Baustein für die demokratische Meinungs- und Willensbildung. Ein uneingeschränkter Zugang zu sozialen Plattformen ermöglicht es Menschen, sich zu vernetzen und Gehör zu verschaffen, soziale Missstände zu kritisieren und gesellschaftlichen Wandel von der Basis aus zu organisieren. Davon lebt eine Demokratie des 21. Jahrhunderts.
 
 Die gesellschaftsverändernden Potentiale der neuen Medien werden im Kontext von Basisbewegungen weltweit längst als ernst zu nehmende Gefahr für das Fortbestehen etablierter politischer Machtverhältnisse wahrgenommen. Eine von vielen Facetten der Kontrolle und Einhegung von mitunter nur antizipierten Protestbewegungen besteht deshalb in der staatlichen Anordnung von Maßnahmen zur Internetzensur. Insbesondere zu Wahlen und in politischen Krisen ließen sich in der Vergangenheit Zensur einzelner Webseiten, von Plattformen oder Internet-Shutdowns ganzer Netzwerke nachweisen. Darüber hinaus sind durchgängig gesellschaftlich marginalisierte Gruppen besonders von der Beschränkung des Internets negativ betroffen.
 
-## **Unsere Mission**
+## Unsere Mission
 
 Wir arbeiteten während der Förderphase mit zwei Open-Source-Projekten zusammen, die sich auf verschiedenen Ebenen dem Kampf gegen Internetzensur verschriebenen haben. Wir haben uns zur Aufgabe gemacht, die Stärken beider Projekte zusammenzubringen, um Werkzeuge für eine sichere und freie Internetkommunikation weiterzuentwickeln und die Dokumentation von Internetzensur zu fördern. Damit wollen wir einerseits einen Beitrag leisten, dass Menschen mit einfachen Mitteln selbst und ohne Angst vor Überwachung und Repression entscheiden können, worüber sie sich informieren und mit wem sie kommunizieren. Anderseits möchten wir auch empirische Daten zur politischen Debatte rund um das Thema Internetzensur liefern.
 
-## **Die beteiligten Projekte**
+## Die beteiligten Projekte
 
 RiseupVPN ist ein spendenbasierter VPN-Service, der Anwender:innen in die Lage versetzt, ihren Netzwerkverkehr gegenüber privatwirtschaftlicher, staatlicher und krimineller Überwachung und Auswertung zu schützen. Die Clients von RiseupVPN sind selbstkonfigurierend und dadurch sehr einfach zu benutzen: Ein Knopfdruck reicht, um eine verschlüsselte Verbindung zu einem VPN Server aufzubauen, über den der eigene Internetverkehr im Anschluss geleitet wird. Der Client ist in vielen Sprachen übersetzt und wird weltweit genutzt, besonders oft jedoch im Iran, in den Vereinigten Arabischen Emiraten, Turkmenistan, Russland, den USA und in der EU.
 
 OONI ist ein Projekt, das mithilfe seiner Community Daten zum Thema Internetzensur erhebt. Freiwillige weltweit nutzen dazu die OONI Clients, die für alle großen Betriebssysteme verfügbar sind, und testen die Erreichbarkeit von bestimmten Webseiten, Social-Media-Plattformen, Kommunikationsdiensten und Umgehungstechnologien. Die Testergebnisse aller Clients werden in einer zentralen Datenbank gesammelt, die sowohl über ein Webinterface als auch eine API abrufbar sind.
 
-## **Das Problem oder genauer: die Probleme**
+## Das Problem oder genauer: die Probleme
 
 Auch RiseupVPN ist nicht von den Blockadeversuchen staatlicher Akteure geschützt. Immer wieder berichten einzelne Anwender:innen aus verschiedenen Ländern, dass der Konfigurationsprozess aus ihrem Netzwerk heraus fehlschlägt oder die VPN-Verbindung sofort oder nach wenigen Sekunden abreißt. Diese Rückmeldungen sind Indikatoren für stattfindende Blockadeversuche der VPN-Infrastruktur. Gleichzeitig finden diese wichtigen Hinweise weder systematisch statt, noch lässt sich durch sie die genaue technische Umsetzung der Blockade nachvollziehen. Dadurch ergibt sich für den Betreiber des VPNs, das Riseup Kollektiv, ein unvollständiges Bild, in welchen Netzwerken und durch welche Mittel ihr Dienst blockiert wird. Ein genaues Verständnis der Angriffe auf die eigene Infrastruktur ist jedoch eine entscheidende Voraussetzung, diesen durch geeignete Gegenmaßnahmen zu begegnen.
 
 Eine ganz andere Ursache, die dazu führt, dass einzelne Inhalte über RiseupVPN nicht verfügbar sind, liegt in einer technischen Innovation der letzten Jahrzehnte, die zunehmend die Internetlandschaft verändert: der Umstieg von IPv4 auf IPv6. Während die Einführung des neuen Internet-Protokolls das Problem löst, dass genug Internetadressen für die nächsten Jahrzehnte zur Verfügung stehen, ist es nicht einfach einen VPN-Dienst darauf umzustellen ohne potentielle Datenlecks zu produzieren. Größere kommerzielle VPN-Anbieter wie [PIA](https://www.privateinternetaccess.com/helpdesk/kb/articles/why-do-you-block-ipv6-2) oder [NordVPN](https://support.nordvpn.com/Connectivity/1047408942/How-to-avoid-an-IPv6-Leak-with-NordVPN.htm)  blockieren IPv6 daher immer noch komplett. Auch RiseupVPN verfolgt bisher diese Strategie, um sicherzugehen, dass Anwender:innen niemals ihre wahre IP-Adresse veröffentlichen. Dadurch, dass jedoch zunehmend Internetdienste IPv6-Addressen nutzen, kommt dieses Vorgehen an seine Grenzen: Mehr und mehr Inhalte sind über das VPN nicht mehr erreichbar. Anwender:innen stehen folglich vor der Wahl, solche IPv6-basierten Internetdienste nicht zu nutzen oder ihre Privatsphäre im Netz aufzugeben, indem sie das VPN komplett deaktivieren.
 
-## **Die Zusammenarbeit**
+## Die Zusammenarbeit
 
 Die Zusammenarbeit zwischen verschiedenen Open-Source-Communities stellte eine besondere Herausforderung dar, die viel Kommunikation und Zeit für gemeinsame Abstimmung verlangte. Gleichzeitig konnten wir erfahren, wie gut organisierte Tech Communities durch unterschiedliches Wissen, individuelles Engagement und einen offenen und dynamischen Entwicklungsprozess Projekte zum Erfolg verhelfen können. Wir möchten einige Punkte herausstellen, von denen wir glauben, dass sie einen wichtigen Einfluss auf den positiven Prozess hatten. Manche Aspekte liegen scheinbar auf der Hand. Wir sind der Meinung, sie sind es trotzdem Wert erwähnt zu werden.
 
-### **Vorstellung des Projektes in den Communities**
+### Vorstellung des Projektes in den Communities
 
 Die Idee des Projektes entstand in Gesprächen zwischen einigen Entwicklern zum Umgang mit schwer zu diagnostizierenden Fehlerbeschreibungen von Anwender:innen, die aus vermeintlich restriktiven Netzwerken versuchten, eine VPN-Verbindung mit einem der unterstützten Provider aufzubauen. Wir, als Teil der Tech-Community, die die Open-Source-VPN-Software baut, sind nicht gleichzusetzen mit den Betreiber:innen der Server. Bevor wir das Projekt starteten, mussten wir deshalb zunächst in Austausch mit dem Provider Riseup gehen, um unsere Idee vorzustellen und zu überprüfen, ob wir damit ein reales Problem mit einem angemessenen Aufwand an Ressourcen beheben können. Genauso besuchten wir die OONI Community vor dem Beginn des Projektes, um uns vorzustellen und in Erfahrung zu bringen, ob wir auf Interesse an unserem Anwendungsfall für ihr Projekt stoßen. Außerdem erhielten wir dadurch frühzeitig eine Einschätzung zur technischen Machbarkeit und des zu erwartenden Zeitaufwandes von Menschen mit langjähriger Expertise in ihrem Bereich. Eine Frage, die wir in Anschlussprojekten noch stärker in den Fokus der Vorbereitung rücken wollen, ist, in welchem Umfang und in welcher Art wir von den beteiligten Communities Unterstützung erwarten können.
 
-### **Leicht zugängliche Kommunikationskanäle**
+### Leicht zugängliche Kommunikationskanäle
 
 Ein einfacher und schneller Kommunikationskanal zu einem Open-Source-Projekt hilft enorm, um sich problemlos vorstellen zu können, schnell beantwortbare Fragen zu stellen und Teil der Entwicklungsgemeinschaft zu werden. Sowohl Riseup als auch OONI sind über [IRC](https://de.wikipedia.org/wiki/Internet_Relay_Chat) zu erreichen, den Chatkanal unserer Wahl. OONI verfügt darüber hinaus über einen mit IRC gekoppelten Slack-Kanal, über den sich häufig Wissenschaftler:innen und andere Unterstützer:innen, die keine Softwareentwickler:innen sind, melden. Hilfreich ist also auch für unterschiedliche Zielgruppen den passenden Kommunikationskanal anzubieten.
 
-### **Monatliches offenes Community- Meeting**
+### Monatliches offenes Community- Meeting
 
 OONI's monatliches offenes Community-Meeting, das über IRC/Slack gehalten wird und allen Unterstützer:innen die Möglichkeit gibt, organisatorische und richtungsweisende Fragen in einem größeren Kreis mit Projektbeteiligten zu diskutieren, inspirierte uns zukünftig ein ähnliches Format für unser Softwareprojekt zu etablieren. Wir nutzten das Treffen zunächst, um uns und unsere Ideen vorzustellen. Im weiteren Verlauf versicherten wir uns in ihnen, dass wir uns mit unserer Arbeit noch auf einem zielführenden Weg befinden. Durch die zeitlich begrenzten Treffen im Gruppenchat konnte sichergestellt werden, dass diejenigen, die OONI als Projekt maßgeblich prägen, dem eigenen Anliegen Aufmerksamkeit schenken, über die aktuellen Entwicklungen informiert sind und ihr Wissen ohne extra Zeitaufwand teilen können.
 
-### **Projektplanung**
+### Projektplanung
 
 Auch die hilfsbereitesten Menschen kommen an die Grenzen ihrer Belastbarkeit, wenn sie keine Zeit erhalten, alle an sie gestellten Anforderungen erfüllen zu können. Gerade für Open-Source-Projekte, die von Kooperation und freiwilliger, selbst motivierter Arbeit leben, ist es daher wichtig, Zeit für Beiträge aus der Community in den Entwicklungsprozess einzurechnen. Es motiviert beispielsweise auch über die Projektphase weiter beizutragen, wenn geöffnete Tickets im Projektplanungswerkzeug der Wahl zeitnah Beachtung finden oder wenn die eigenen Fähigkeiten durch konstruktive und erklärende Reviews der eingebrachten Pull Requests gestärkt werden.
 
@@ -57,23 +57,23 @@ Neben der zeitlichen Komponente ist aus unserer Erfahrung auch eine Offenheit f�
 
 Mit OONI und Riseup hatten wir das Glück, dass sie solche Ansichten teilen.
 
-### **Dokumentation**
+### Dokumentation
 
 Dokumentation kann insbesondere während des Einstiegs in eine neue Technologie helfen, um Grundprinzipien zu verstehen, zu lernen, wie ein Werkzeug gebaut oder benutzt wird. Sie kann jedoch auch genau das Gegenteil bewirken: Ein Irrgarten von README's in 101 Submodulen sind beispielsweise wenig geeignet, um leicht einen Überblick über eine Software zu erhalten. Wir schreiben hier aus Erfahrung und haben uns deshalb während der Projektphase auf den Weg gemacht, unsere eigene Dokumentation auszubauen, besser zu strukturieren und leichter wartbar zu halten. Die Unterteilung nach informativen Spezifikationen, problemlösungsorientierten Anleitungen, Erklärungen, die Hintergrundwissen über Architekturentscheidungen vermitteln, und lernorientierten Tutorials erscheint uns momentan als eine sinnvolle Unterteilung, um zukünftig neuen Beitragenden einen einfacheren Einstieg zu ermöglichen. \
  Auch hierzu hat OONI eigene Prozesse entwickelt, um Zuarbeiten aus der Community gut zu dokumentieren. Zum einen war es eine Voraussetzung, eine technische Spezifikation des Tests zu schreiben und einen separaten Pull Request in das eigens dafür vorgesehene Respository zu stellen, damit der neue Code in die Codebasis aufgenommen werden kann. Für die Zielgruppe der freiwilligen Tester:innen musste zudem ein kurzer erklärender Text über den neuen Netzwerktest verfasst werden, der auch in den Clients, also den Werkzeugen die von der Zielgruppe direkt genutzt wird, leicht erreichbar ist.
 
-### **Soft-Skills**
+### Soft-Skills
 
 Natürlich hängt die gelungene Zusammenarbeit auch von individuellen sozialen Fähigkeiten der Beteiligten ab. Eine gute Organisationsstruktur kann helfen, bereichernde Arbeitsbeziehungen zu entwickeln, diese aber nicht ersetzen. Wertschätzende Kommunikation, eine offene Fehlerkultur und die Bereitschaft sich in die zahlreichen Repositories einzuarbeiten und beizutragen haben unsere Kollaboration entscheidend vorangebracht.
 
-## **Unsere Lösungen**
+## Unsere Lösungen
 
 Um Riseup in die Lage zu versetzen, einen Überblick über die Erreichbarkeit ihres Konfigurationsservers sowie jedes einzelnen VPN Gateways zu gewinnen und im Fall von Blockadeversuchen die zugrunde liegende Methodik zu analysieren, entwickelten wir sogenannte OONI Netzwerktests und integrierten sie in Abstimmung mit der OONI Community in die OONI Clients für [Android und iOS](https://ooni.org/install/mobile), in den [Electron Desktop Client für Windows und Mac](https://ooni.org/install/desktop), in das offizielle [OONI Command Line Interface](https://github.com/ooni/probe-cli#ooni-probe-cli) sowie den Entwicklungs- und Debugging-Client Miniooni. Die Tests werden weltweit aus verschiedenen Netzwerken heraus von Unterstützer:innen ausgeführt. Sie liefern ein detailliertes Bild über jede einzelne Netzwerkanfrage während des Konfigurationsprozesses von RiseupVPN sowie während des Aufbaus einer [TCP-Verbindung](https://de.wikipedia.org/wiki/Transmission_Control_Protocol) mit den Gateways. Die Testergebnisse ermöglichen einen Rückschluss darauf, ob einzelne IPs, Ports, OpenVPN, ein verfügbares Obfuskierungsprotokoll oder die DNS-Auflösung blockiert werden. Damit Riseup automatisiert eine Zusammenfassung der Resultate auf eine leicht zugängliche Weise erhält, entwickelten wir eine Feedback-Schleife für das [Monitoring-System Prometheus](https://prometheus.io), welches in der Backend-Software von RiseupVPN eingesetzt wird. Dafür passten wir mit Unterstützung der OONI Community OONI's Web API an und implementierten ein Werkzeug namens OONI-Exporter, das von der angepassten Schnittstelle alle relevanten Testergebnisse abfragt, kategorisiert und zusammenfasst. Mithilfe eines Prometheus Push-Gateways werden die Ergebnisse in Prometheus eingespeist und können als Graphen dargestellt sowie nach Kategorien wie Länder, Netzwerke oder Fehlerkategorien gefiltert werden. \
  Um freiwilligen Unterstützer:innen und Wissenschaftler:innen, die die Rohdaten produzieren bzw. auswerten, die Ziele und Methodik der neuen Netzwerktests nahezubringen, schrieben wir sowohl eine technische Spezifikation als auch eine Testbeschreibung für ooni.org.
 
 Zur Unterstützung von IPv6 passten wir zunächst die Firewall und das Routing serverseitig an. Wir konfigurierten der OpenVPN Server so, dass er auf einen Port mit einer statischen IPv6-Adresse für Clients erreichbar ist und diesen mithilfe von [Neighbor Solicitation](https://de.wikipedia.org/wiki/Neighbor_Discovery_Protocol) IPv6-Adressen des zur Verfügung stehenden Adressblocks zuweist. Damit die Clients die öffentlichen IPv6-Adressen aller Gateways erfahren, passten wir die Konfigurationsschnittstelle an. Clientseitig mussten diese Änderungen der API ebenfalls implementiert und die Generierung der OpenVPN-Konfiguration angepasst werden. OpenVPN bietet einfache Möglichkeiten innerhalb einer Konfiguration Fallback-Mechanismen umzusetzen. Dadurch konnten wir problemlos einen clientseitigen Dual-Stack-Ansatz verfolgen, in dem zunächst ein Verbindungsaufbau über IPv6 versucht wird und im Falle eines Verbindungsfehlers auf IPv4 zurückgefallen wird. Die IPv6 Unterstützung wurde bisher prototypisch im Backend und im Android Client von RiseupVPN umgesetzt. Während der Entwicklung setzten wir ein Test-Backend auf und nutzen ein Open-Source-Testframework von ExpressVPN, um unser System auf mögliche Leaks zu testen. Wir planen zum Ende des Förderzeitraumes dieses Framework als Docker Image zur Verfügung zu stellen. Damit wollen wir es weiteren Programmierer:innen erleichtern, in den nächsten Entwicklungszyklen bis zur Produktionsreife der IPv6-Unterstützung mitzuarbeiten.
 
-## **Der Ausblick**
+## Der Ausblick
 
 Die Arbeit in den letzten Monaten eröffnete uns viele neue Bereiche, an denen wir in Zukunft anknüpfen können, um weitere Verbesserungen vornehmen zu können. Zunächst gilt es, die prototypische IPv6-Unterstützung weiterzuentwickeln. Ein besonderes Augenmerk werden wir beim Testen darauf werfen, dass ein Ausspähen anderer verbundener IPv6-Addressen, das Ermitteln der Anzahl aller Verbindungen eines Gateways und IPv6 basierte [“Denial of Service”-Angriffsszenarien](https://de.wikipedia.org/wiki/Distributed_Denial_of_Service) innerhalb des VPN-Netzwerkes nicht möglich sind (siehe auch <https://tools.ietf.org/html/rfc4861#section-11.1>).
 
@@ -84,7 +84,7 @@ Zum Ende der Projektphase gab es größere parallel stattfindende Entwicklungen 
 
 Schließlich planen wir bereits im Katz-und-Maus-Spiel der Zensur und Umgehungstechnologien weitere erfolgsversprechende Schritte.
 
-## **Fazit**
+## Fazit
 
 Durch die Teilnahme am Prototype Fund konnten wir ein System entwickeln, das es Riseup ermöglicht frühzeitig zu erkennen, in welchen Netzwerken und mit welcher Methodik ihre VPN- Infrastruktur blockiert wird. Es stellt die Grundlage dafür dar, dass der Provider auf Blockaden reagieren kann, indem es beispielsweise IP-Adressen rotiert und [Obfuskierungstechniken](https://www.pluggabletransports.info/how-transports/) einsetzt. \
 Das geförderte Projekt stellt auch einen wichtigen Meilenstein bei der Integration neuer Obfuskierungstechniken dar. Mithilfe der von uns entwickelten Netzwerktests lassen sich nun empirische Daten erheben, anhand derer sich die Wirksamkeit dieser Techniken bewerten lassen. Die von der OONI Community gesammelten Testergebnisse dienen zudem als Grundlage für wissenschaftliche Analysen im Bereich Internetzensur.
