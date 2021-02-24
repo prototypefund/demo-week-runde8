@@ -15,9 +15,7 @@ summary: ""
 
 # Chatmosphere
 
-### Einladung zur Live-Demo
-
-Wir laden heute am Dienstag, den 23.02., ab 19.00 zu einem informellen Treffen ein. Irgendwo zwischen Meet&Greet und Feierabendbier ist jede:r eingeladen Chatmosphere auszuprobieren:
+### Live-Demo
 
 [https://demo.chatmosphere.cc/](https://demo.chatmosphere.cc/)
 
@@ -25,7 +23,7 @@ Ihr seid sichtbar und könnt euch im Raum frei bewegen - eigentlich alles so wie
 
 Wir bitten euch den Einladungslink an einem Laptop oder Computer in Chrome zu öffnen, da unser Prototyp noch nicht auf allen Browsern stabil läuft. Mobile Phones oder Touch Devices sind auch nicht geeignet (da würdet ihr eh auch kaum jemanden sehen).
 
-**Disclaimer**: Je nach Menge an Besucher:innnen kann es zu Bandbreitenproblemen kommen. Bisher hatten wir den Punkt noch nicht erreicht, aber das kann ja noch kommen.
+**Disclaimer**: Je nach Menge an Besucher:innnen kann es zu Bandbreitenproblemen auf unserem Demoserver kommen. Bisher hatten wir den Punkt noch nicht erreicht, aber das kann ja noch kommen.
 
 Wir freuen uns auf euch!
 
