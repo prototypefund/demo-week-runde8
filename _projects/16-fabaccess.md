@@ -108,7 +108,7 @@ Unsere Wahl ist aufgrund der kurzen Förderphase auf C# mit Xamarin gefallen, da
 
 Für eine funktionierende und langfristige Föderation benötigten wir eine stabile API, über die die einzelnen Instanzen und Clients mit unserem Server(BFFH - Diflouroborane) kommunizieren können. Auch eine Abwärtskompatibilität ist sinnvoll, wenn BFFH von einzelnen Spaces auf deren Bedürfnisse angepasst werden können soll. Dabei sollte unser Referenzclient (Borepin) nicht funktionsunfähig werden. Um all dies möglich zu machen, ist unsere API in Cap'n Proto geschrieben.
 
-![Struktur von FabAccess, mit Schnittstellenaufteilung](https://i.imgur.com/5ovELvG.png)
+![Struktur von FabAccess, mit Schnittstellenaufteilung](/assets/images/project_images/fabaccess/5ovELvG.png)
 
 > Struktur von FabAccess, mit Schnittstellenaufteilung
 
@@ -123,7 +123,7 @@ Um die kommerziellen Produkte nicht außer acht zu lassen, arbeiten wir an der E
 Hardware zur Anbindung an die Geräte wurde uns unter anderem von einem sehr engagierten Unterstützer zur Verfügung gestellt.
 Vielen Dank an dieser Stelle an Joris, der für uns den ersten Prototypen eines SmartCard-Readers entwickelt hat, der sich schon wunderbar an unsere Schnittstellen anbindet.
 
-![Drehbank mit ursprünglichem Schaltungsprototypen](https://i.imgur.com/DMiYB24.jpg)
+![Drehbank mit ursprünglichem Schaltungsprototypen](/assets/images/project_images/fabaccess/DMiYB24.jpg)
 
 > Drehbank mit ursprünglichem Schaltungsprototypen
 
@@ -170,7 +170,7 @@ Auf der Client-Seite war die Auswahl für unabhängige Aufgaben begrenzt, da die
 
 In unserem ersten Coaching mit Simply Secure stellten wir unseren ersten Designentwurf für Borepin vor. Bei diesem Gespräch wurde angesprochen, dass wir ein Wiedererkennungsmerkmal für eine NFC-Interaktion kreieren sollten, um so Nutzer:innen eine einfache Erkennung von NFC-Tags oder Karten bereitzustellen. Daraufhin ist unser Design für eine NFC-Markierung entstanden.
 
-![SmartCard und Maschinensticker im FabAccess NFC Design](https://i.imgur.com/IcxxwjR.jpg)
+![SmartCard und Maschinensticker im FabAccess NFC Design](/assets/images/project_images/fabaccess/IcxxwjR.jpg)
 
 > SmartCard und Maschinensticker im FabAccess NFC Design
 
@@ -220,7 +220,7 @@ Wir arbeiten an einer Strategie zur weiteren Förderung unseres Föderationskonz
 Auch wollen wir in einem Machbarkeitstest unseren Core (BFFH) erweitern und so testen, ob wir auch andere Anwendungen wie z. B. ein Netzwerk aus Lastenfahrradverleihen mit unserem System unterstützen können.
 Unser offener und generischer Ansatz scheint sich auszuzahlen.
 
-![Föderationsablaufbeispiel von FabAccess/DEMOKrAtIS](https://i.imgur.com/2nX7EV1.png)
+![Föderationsablaufbeispiel von FabAccess/DEMOKrAtIS](/assets/images/project_images/fabaccess/2nX7EV1.png)
 
 > Föderationsablaufbeispiel von FabAccess/DEMOKrAtIS
 > _DEMOKrAtIS ist der Projektname des Machbarkeitsprojektes_
