@@ -35,6 +35,10 @@ Eine proof-of-concept App für die verlässliche Erfassung von Belegen wurde von
 
 Das Ziel von surec ist, eine umfassende Lösung zu schaffen, mit der alle Abläufe in Hilfs- und Beratungsprozessen unterstützt und durch unterstützte, verlässliche und strukturierte Datenerfassung und -Weitergabe effizient durchgeführt werden können, beginnend bei der Datenerfassung. Sowohl für die Hilfe- und Beratungssuchenden als auch für die Mitarbeitenden in den entsprechenden Organisationen sollen Zeitaufwand und Komplexität der Arbeitsabläufe reduziert sowie die Durchführung einzelner Schritte erleichtert werden - auch um die Hürden für die Inanspruchnahme von Hilfs- und Beratungsangeboten zu senken.
 
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/pTWo1zx0K68" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Was wurde in der Projektphase erreicht
 
 In den 6 Monaten der Runde 8 des Prototype Fund wurde ein App für Android und iOS entwickelt, mit der überprüfbar nicht nachträglich manipulierte Protokolle, Fotos, Ton und Videoaufnahmen erfasst werden können. Für die Überprüfung und die Weitergabe an Hilfs- und Beratungsorganisationen können die erfassten Daten aus der App von den Nutzer:innen selektiv exportiert werden. Die Überprüfung der Daten findet über eine Webanwendung anhand von zuvor von der App übermittelten nicht personenbezogenen Prüfsummen zu den erfassten Daten statt.
@@ -45,6 +49,10 @@ Die surec App wurde von Anfang an in Hinblick auf einfache Bedienbarkeit sowie A
 
 Mit der App können die Nutzer:innen Notizen, Fotos, Audio- und Videobelege erfassen und die Daten durch eine individuelle Tagverwaltung organisieren. Wenn die Belege im weiteren Arbeitsablauf, z.B. zur Prüfung, weitergegeben werden müssen, kann ein Export in Form einer PDF-Datei mit zugehörigen Anlagen erfolgen.
 Die Prüfung auf Unverändertheit der Belege kann dann über die Webanwendung stattfinden.
+
+<div class="iframe-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/MXubb9d7KLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Welche Zielgruppen hat surec?
 
